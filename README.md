@@ -90,7 +90,6 @@ Pour rendre l’expérience intuitive, nous mettrons en place :
 gantt
     dateFormat  YYYY-MM-DD
     title Planification du projet EnergiFrance
-    todayMarker off
 
     %% PHASE 1 – Lancement du projet
     section Démarrage
