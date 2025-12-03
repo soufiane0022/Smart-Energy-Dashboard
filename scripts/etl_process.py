@@ -14,50 +14,59 @@ FILE_PROD_AN = 'prod-region-annuelle-filiere-2.csv'
 # --- 2. FONCTIONS DE NETTOYAGE ---
 
 def nettoyer_conso_enedis():
-    print(f"🔹 1/3 Traitement Consommation ({FILE_CONSO})...")
+    print(f"🔹 1/3 Traitement Consommation ÉLECTRICITÉ ({FILE_CONSO})...")
     path = os.path.join(RAW_DIR, FILE_CONSO)
     
     # Lecture
     df = pd.read_csv(path, sep=';', encoding='utf-8', dtype={'Code département': str, 'Code région': str})
     
-    # Renommage avec tes noms exacts
+    # Sélection et Renommage précis (Uniquement l'électricité)
     df = df.rename(columns={
         'Année': 'annee', 
         'Code département': 'code_dept', 
-        'Libellé département': 'nom_dept',  # <-- Corrigé
+        'Libellé département': 'nom_dept',
         'Code région': 'code_reg', 
-        'Libellé région': 'nom_reg',        # <-- Corrigé
-        'Consommation totale (MWh)': 'conso_totale'
+        'Libellé région': 'nom_reg',
+        # On cible les colonnes précises demandées
+        'Consommation électricité agriculture (MWh)': 'conso_agri',
+        'Consommation électricité industrie (MWh)': 'conso_indu',
+        'Consommation électricité résidentiel (MWh)': 'conso_res',
+        'Consommation électricité tertiaire (MWh)': 'conso_tert',
+        'Consommation électricité autre (MWh)': 'conso_autre',
+        'Consommation électricité totale (MWh)': 'conso_totale'
     })
     
-    # Aggrégation par Région (Somme des départements)
+    # On ne garde que les colonnes qu'on vient de renommer
+    cols_to_keep = ['annee', 'code_dept', 'nom_dept', 'code_reg', 'nom_reg', 
+                    'conso_agri', 'conso_indu', 'conso_res', 'conso_tert', 'conso_autre', 'conso_totale']
+    
+    # Vérification que les colonnes existent (pour éviter un crash silencieux)
+    cols_existantes = [c for c in cols_to_keep if c in df.columns]
+    df = df[cols_existantes]
+    
+    # Sauvegarde version départementale détaillée (utile pour des graphiques par secteur)
+    df.to_csv(os.path.join(PROCESSED_DIR, 'conso_clean_dept.csv'), sep=';', encoding='utf-8-sig', index=False)
+    
+    # --- AGREGATION PAR REGION (Pour le Bilan) ---
+    # On somme la 'conso_totale' (électricité) par région
     df_region = df.groupby(['annee', 'code_reg', 'nom_reg'])['conso_totale'].sum().reset_index()
     
-    # Sauvegarde version départementale propre
-    df.to_csv(os.path.join(PROCESSED_DIR, 'conso_clean_dept.csv'), sep=';', encoding='utf-8-sig', index=False)
     return df_region
 
 def pivot_production(df, id_vars):
     """
     Fonction utilitaire pour transformer les colonnes (Nucléaire, Solaire...) en lignes.
     """
-    # Liste des colonnes d'énergie à pivoter
     cols_energie = [
         'Production nucléaire (GWh)', 'Production thermique (GWh)', 
         'Production hydraulique (GWh)', 'Production éolienne (GWh)', 
         'Production solaire (GWh)', 'Production bioénergies (GWh)'
     ]
-    
-    # Vérification que les colonnes existent bien dans le fichier
     cols_presentes = [c for c in cols_energie if c in df.columns]
     
-    # Transformation (Melt) : On passe de 1 ligne avec 6 colonnes -> 6 lignes
     df_melted = df.melt(id_vars=id_vars, value_vars=cols_presentes, var_name='filiere_raw', value_name='prod_gwh')
     
-    # Nettoyage du nom de la filière (ex: "Production solaire (GWh)" -> "Solaire")
     df_melted['filiere'] = df_melted['filiere_raw'].str.replace('Production ', '').str.replace(' (GWh)', '').str.capitalize()
-    
-    # Nettoyage des valeurs
     df_melted['prod_gwh'] = pd.to_numeric(df_melted['prod_gwh'], errors='coerce').fillna(0)
     df_melted['prod_mwh'] = df_melted['prod_gwh'] * 1000
     
@@ -73,19 +82,12 @@ def nettoyer_prod_mensuelle():
 
     df = pd.read_csv(path, sep=';', encoding='utf-8', dtype={'Code INSEE région': str})
     
-    # Renommage des colonnes d'identification
-    df = df.rename(columns={
-        'Code INSEE région': 'code_reg',
-        'Région': 'nom_reg'
-    })
+    df = df.rename(columns={'Code INSEE région': 'code_reg', 'Région': 'nom_reg'})
     
-    # Extraction de l'année depuis la colonne "Mois" (ex: 2022-01 -> 2022)
-    # Si "Mois" contient "2022-01", on prend les 4 premiers caractères
     if 'Mois' in df.columns:
         df['annee'] = df['Mois'].astype(str).str[:4].astype(int)
         df['mois_num'] = df['Mois'].astype(str).str[5:7]
     
-    # Pivotage des données
     df_clean = pivot_production(df, id_vars=['annee', 'mois_num', 'code_reg', 'nom_reg'])
     
     df_clean.to_csv(os.path.join(PROCESSED_DIR, 'prod_mensuelle_clean.csv'), sep=';', encoding='utf-8-sig', index=False)
@@ -99,30 +101,19 @@ def nettoyer_prod_annuelle():
 
     df = pd.read_csv(path, sep=';', encoding='utf-8', dtype={'Code INSEE région': str})
     
-    # Renommage
-    df = df.rename(columns={
-        'Année': 'annee', 
-        'Code INSEE région': 'code_reg',
-        'Région': 'nom_reg'
-    })
+    df = df.rename(columns={'Année': 'annee', 'Code INSEE région': 'code_reg', 'Région': 'nom_reg'})
     
-    # Pivotage (Transformation Wide -> Long)
     df_clean = pivot_production(df, id_vars=['annee', 'code_reg', 'nom_reg'])
     
-    # Ajout catégorie Renouvelable
-    # Attention aux accents dans les noms nettoyés (Éolienne, Bioénergies...)
     def get_cat(f):
         f = str(f).lower()
-        if 'nucléaire' in f or 'thermique' in f:
-            return 'Non-Renouvelable'
+        if 'nucléaire' in f or 'thermique' in f: return 'Non-Renouvelable'
         return 'Renouvelable'
 
     df_clean['categorie'] = df_clean['filiere'].apply(get_cat)
     
-    # Sauvegarde du détail par filière
-    df_clean.to_csv(os.path.join(PROCESSED_DIR, 'prod_annuelle_filiere_clean.csv'), sep=';', encoding='utf-8-sig', index=False) 
+    df_clean.to_csv(os.path.join(PROCESSED_DIR, 'prod_annuelle_filiere_clean.csv'), sep=';', encoding='utf-8-sig', index=False)
     
-    # Aggrégation totale pour le bilan
     df_global = df_clean.groupby(['annee', 'code_reg', 'nom_reg'])['prod_mwh'].sum().reset_index()
     return df_global
 
@@ -131,19 +122,15 @@ def nettoyer_prod_annuelle():
 def creer_bilan(df_conso, df_prod):
     print("🔹 Création du Bilan Global (Fusion)...")
     
-    # Fusion
     df_final = pd.merge(df_conso, df_prod, on=['annee', 'code_reg'], suffixes=('_conso', '_prod'))
     
-    # Nettoyage
     if 'nom_reg_conso' in df_final.columns:
         df_final = df_final.rename(columns={'nom_reg_conso': 'nom_region'})
         df_final = df_final.drop(columns=['nom_reg_prod'], errors='ignore')
 
-    # Calculs
     df_final['taux_couverture'] = (df_final['prod_mwh'] / df_final['conso_totale']) * 100
     df_final['taux_couverture'] = df_final['taux_couverture'].round(2)
     
-    # Couleurs
     def get_color(taux):
         if taux >= 100: return 'Vert'
         elif taux >= 50: return 'Orange'
@@ -165,10 +152,9 @@ if __name__ == "__main__":
         nettoyer_prod_mensuelle()
         df_p = nettoyer_prod_annuelle()
         creer_bilan(df_c, df_p)
-        
-        print("\n ETL terminé avec succès !")
+        print("\n🎉 ETL terminé avec succès !")
         
     except Exception as e:
         print(f"\n❌ Erreur : {e}")
         import traceback
-        traceback.print_exc()
+        traceback.print_exc() 
