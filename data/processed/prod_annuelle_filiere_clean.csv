@@ -1,0 +1,859 @@
+﻿annee;code_reg;nom_reg;filiere_raw;prod_gwh;filiere;prod_mwh;categorie
+2014;11;Île-de-France;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2017;11;Île-de-France;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2021;11;Île-de-France;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2015;24;Centre-Val de Loire;Production nucléaire (GWh);79281.0;Nucléaire;79281000.0;Non-Renouvelable
+2017;24;Centre-Val de Loire;Production nucléaire (GWh);74851.0;Nucléaire;74851000.0;Non-Renouvelable
+2018;24;Centre-Val de Loire;Production nucléaire (GWh);74536.0;Nucléaire;74536000.0;Non-Renouvelable
+2024;24;Centre-Val de Loire;Production nucléaire (GWh);70541.0;Nucléaire;70541000.0;Non-Renouvelable
+2021;27;Bourgogne-Franche-Comté;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2014;28;Normandie;Production nucléaire (GWh);72092.0;Nucléaire;72092000.0;Non-Renouvelable
+2015;28;Normandie;Production nucléaire (GWh);64779.0;Nucléaire;64779000.0;Non-Renouvelable
+2017;28;Normandie;Production nucléaire (GWh);53013.0;Nucléaire;53013000.0;Non-Renouvelable
+2018;28;Normandie;Production nucléaire (GWh);60399.0;Nucléaire;60399000.0;Non-Renouvelable
+2023;32;Hauts-de-France;Production nucléaire (GWh);28739.0;Nucléaire;28739000.0;Non-Renouvelable
+2021;44;Grand Est;Production nucléaire (GWh);61263.0;Nucléaire;61263000.0;Non-Renouvelable
+2021;52;Pays de la Loire;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2016;53;Bretagne;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2022;53;Bretagne;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2023;53;Bretagne;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2014;75;Nouvelle-Aquitaine;Production nucléaire (GWh);42538.0;Nucléaire;42538000.0;Non-Renouvelable
+2017;75;Nouvelle-Aquitaine;Production nucléaire (GWh);45143.0;Nucléaire;45143000.0;Non-Renouvelable
+2018;75;Nouvelle-Aquitaine;Production nucléaire (GWh);45775.0;Nucléaire;45775000.0;Non-Renouvelable
+2020;75;Nouvelle-Aquitaine;Production nucléaire (GWh);38215.0;Nucléaire;38215000.0;Non-Renouvelable
+2021;75;Nouvelle-Aquitaine;Production nucléaire (GWh);36682.0;Nucléaire;36682000.0;Non-Renouvelable
+2022;75;Nouvelle-Aquitaine;Production nucléaire (GWh);21874.0;Nucléaire;21874000.0;Non-Renouvelable
+2015;84;Auvergne-Rhône-Alpes;Production nucléaire (GWh);90853.0;Nucléaire;90853000.0;Non-Renouvelable
+2017;84;Auvergne-Rhône-Alpes;Production nucléaire (GWh);79991.0;Nucléaire;79991000.0;Non-Renouvelable
+2020;84;Auvergne-Rhône-Alpes;Production nucléaire (GWh);77199.0;Nucléaire;77199000.0;Non-Renouvelable
+2015;93;Provence-Alpes-Côte d'Azur;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2016;93;Provence-Alpes-Côte d'Azur;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2018;94;Corse;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2022;94;Corse;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2015;11;Île-de-France;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2022;11;Île-de-France;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2019;24;Centre-Val de Loire;Production nucléaire (GWh);71625.0;Nucléaire;71625000.0;Non-Renouvelable
+2016;27;Bourgogne-Franche-Comté;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2018;27;Bourgogne-Franche-Comté;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2020;27;Bourgogne-Franche-Comté;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2022;27;Bourgogne-Franche-Comté;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2021;28;Normandie;Production nucléaire (GWh);65112.0;Nucléaire;65112000.0;Non-Renouvelable
+2024;28;Normandie;Production nucléaire (GWh);60525.0;Nucléaire;60525000.0;Non-Renouvelable
+2015;32;Hauts-de-France;Production nucléaire (GWh);37478.0;Nucléaire;37478000.0;Non-Renouvelable
+2015;44;Grand Est;Production nucléaire (GWh);85240.0;Nucléaire;85240000.0;Non-Renouvelable
+2018;44;Grand Est;Production nucléaire (GWh);80562.0;Nucléaire;80562000.0;Non-Renouvelable
+2024;44;Grand Est;Production nucléaire (GWh);62400.0;Nucléaire;62400000.0;Non-Renouvelable
+2019;52;Pays de la Loire;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2023;52;Pays de la Loire;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2014;53;Bretagne;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2021;53;Bretagne;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2018;53;Bretagne;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2023;75;Nouvelle-Aquitaine;Production nucléaire (GWh);37182.0;Nucléaire;37182000.0;Non-Renouvelable
+2023;76;Occitanie;Production nucléaire (GWh);4523.0;Nucléaire;4523000.0;Non-Renouvelable
+2024;76;Occitanie;Production nucléaire (GWh);16656.0;Nucléaire;16656000.0;Non-Renouvelable
+2014;84;Auvergne-Rhône-Alpes;Production nucléaire (GWh);87866.0;Nucléaire;87866000.0;Non-Renouvelable
+2019;84;Auvergne-Rhône-Alpes;Production nucléaire (GWh);85830.0;Nucléaire;85830000.0;Non-Renouvelable
+2018;93;Provence-Alpes-Côte d'Azur;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2023;93;Provence-Alpes-Côte d'Azur;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2024;93;Provence-Alpes-Côte d'Azur;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2019;94;Corse;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2023;94;Corse;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2019;11;Île-de-France;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2023;11;Île-de-France;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2014;24;Centre-Val de Loire;Production nucléaire (GWh);77871.0;Nucléaire;77871000.0;Non-Renouvelable
+2023;27;Bourgogne-Franche-Comté;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2024;27;Bourgogne-Franche-Comté;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2016;28;Normandie;Production nucléaire (GWh);57283.0;Nucléaire;57283000.0;Non-Renouvelable
+2021;32;Hauts-de-France;Production nucléaire (GWh);29825.0;Nucléaire;29825000.0;Non-Renouvelable
+2016;44;Grand Est;Production nucléaire (GWh);82739.0;Nucléaire;82739000.0;Non-Renouvelable
+2023;44;Grand Est;Production nucléaire (GWh);55303.0;Nucléaire;55303000.0;Non-Renouvelable
+2016;52;Pays de la Loire;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2018;52;Pays de la Loire;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2024;52;Pays de la Loire;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2017;53;Bretagne;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2016;75;Nouvelle-Aquitaine;Production nucléaire (GWh);42200.0;Nucléaire;42200000.0;Non-Renouvelable
+2017;76;Occitanie;Production nucléaire (GWh);17768.0;Nucléaire;17768000.0;Non-Renouvelable
+2019;76;Occitanie;Production nucléaire (GWh);16952.0;Nucléaire;16952000.0;Non-Renouvelable
+2021;76;Occitanie;Production nucléaire (GWh);14815.0;Nucléaire;14815000.0;Non-Renouvelable
+2022;76;Occitanie;Production nucléaire (GWh);12144.0;Nucléaire;12144000.0;Non-Renouvelable
+2016;84;Auvergne-Rhône-Alpes;Production nucléaire (GWh);74982.0;Nucléaire;74982000.0;Non-Renouvelable
+2021;94;Corse;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2020;93;Provence-Alpes-Côte d'Azur;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2016;94;Corse;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2020;94;Corse;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2024;11;Île-de-France;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2020;24;Centre-Val de Loire;Production nucléaire (GWh);65754.0;Nucléaire;65754000.0;Non-Renouvelable
+2021;24;Centre-Val de Loire;Production nucléaire (GWh);68678.0;Nucléaire;68678000.0;Non-Renouvelable
+2023;24;Centre-Val de Loire;Production nucléaire (GWh);56770.0;Nucléaire;56770000.0;Non-Renouvelable
+2017;27;Bourgogne-Franche-Comté;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2019;27;Bourgogne-Franche-Comté;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2020;28;Normandie;Production nucléaire (GWh);42033.0;Nucléaire;42033000.0;Non-Renouvelable
+2023;28;Normandie;Production nucléaire (GWh);54272.0;Nucléaire;54272000.0;Non-Renouvelable
+2018;32;Hauts-de-France;Production nucléaire (GWh);34567.0;Nucléaire;34567000.0;Non-Renouvelable
+2020;32;Hauts-de-France;Production nucléaire (GWh);32606.0;Nucléaire;32606000.0;Non-Renouvelable
+2022;32;Hauts-de-France;Production nucléaire (GWh);28185.0;Nucléaire;28185000.0;Non-Renouvelable
+2014;44;Grand Est;Production nucléaire (GWh);85852.0;Nucléaire;85852000.0;Non-Renouvelable
+2017;52;Pays de la Loire;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2022;52;Pays de la Loire;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2015;53;Bretagne;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2019;53;Bretagne;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2020;53;Bretagne;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2024;53;Bretagne;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2020;76;Occitanie;Production nucléaire (GWh);16219.0;Nucléaire;16219000.0;Non-Renouvelable
+2018;84;Auvergne-Rhône-Alpes;Production nucléaire (GWh);80199.0;Nucléaire;80199000.0;Non-Renouvelable
+2021;84;Auvergne-Rhône-Alpes;Production nucléaire (GWh);84320.0;Nucléaire;84320000.0;Non-Renouvelable
+2023;84;Auvergne-Rhône-Alpes;Production nucléaire (GWh);83607.0;Nucléaire;83607000.0;Non-Renouvelable
+2020;44;Grand Est;Production nucléaire (GWh);63387.0;Nucléaire;63387000.0;Non-Renouvelable
+2022;44;Grand Est;Production nucléaire (GWh);37278.0;Nucléaire;37278000.0;Non-Renouvelable
+2014;52;Pays de la Loire;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2017;93;Provence-Alpes-Côte d'Azur;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2021;93;Provence-Alpes-Côte d'Azur;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2022;93;Provence-Alpes-Côte d'Azur;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2017;94;Corse;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2016;11;Île-de-France;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2018;11;Île-de-France;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2020;11;Île-de-France;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2016;24;Centre-Val de Loire;Production nucléaire (GWh);75741.0;Nucléaire;75741000.0;Non-Renouvelable
+2022;24;Centre-Val de Loire;Production nucléaire (GWh);62923.0;Nucléaire;62923000.0;Non-Renouvelable
+2014;27;Bourgogne-Franche-Comté;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2015;27;Bourgogne-Franche-Comté;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2019;28;Normandie;Production nucléaire (GWh);49259.0;Nucléaire;49259000.0;Non-Renouvelable
+2022;28;Normandie;Production nucléaire (GWh);43431.0;Nucléaire;43431000.0;Non-Renouvelable
+2014;32;Hauts-de-France;Production nucléaire (GWh);34682.0;Nucléaire;34682000.0;Non-Renouvelable
+2016;32;Hauts-de-France;Production nucléaire (GWh);31227.0;Nucléaire;31227000.0;Non-Renouvelable
+2017;32;Hauts-de-France;Production nucléaire (GWh);31437.0;Nucléaire;31437000.0;Non-Renouvelable
+2019;32;Hauts-de-France;Production nucléaire (GWh);32087.0;Nucléaire;32087000.0;Non-Renouvelable
+2024;32;Hauts-de-France;Production nucléaire (GWh);32765.0;Nucléaire;32765000.0;Non-Renouvelable
+2017;44;Grand Est;Production nucléaire (GWh);76883.0;Nucléaire;76883000.0;Non-Renouvelable
+2019;44;Grand Est;Production nucléaire (GWh);76390.0;Nucléaire;76390000.0;Non-Renouvelable
+2015;52;Pays de la Loire;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2020;52;Pays de la Loire;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2015;75;Nouvelle-Aquitaine;Production nucléaire (GWh);40391.0;Nucléaire;40391000.0;Non-Renouvelable
+2019;75;Nouvelle-Aquitaine;Production nucléaire (GWh);47320.0;Nucléaire;47320000.0;Non-Renouvelable
+2024;75;Nouvelle-Aquitaine;Production nucléaire (GWh);38621.0;Nucléaire;38621000.0;Non-Renouvelable
+2014;76;Occitanie;Production nucléaire (GWh);14927.0;Nucléaire;14927000.0;Non-Renouvelable
+2015;76;Occitanie;Production nucléaire (GWh);18749.0;Nucléaire;18749000.0;Non-Renouvelable
+2016;76;Occitanie;Production nucléaire (GWh);19804.0;Nucléaire;19804000.0;Non-Renouvelable
+2018;76;Occitanie;Production nucléaire (GWh);17155.0;Nucléaire;17155000.0;Non-Renouvelable
+2022;84;Auvergne-Rhône-Alpes;Production nucléaire (GWh);73122.0;Nucléaire;73122000.0;Non-Renouvelable
+2024;84;Auvergne-Rhône-Alpes;Production nucléaire (GWh);80202.0;Nucléaire;80202000.0;Non-Renouvelable
+2014;93;Provence-Alpes-Côte d'Azur;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2019;93;Provence-Alpes-Côte d'Azur;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2014;94;Corse;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2015;94;Corse;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2024;94;Corse;Production nucléaire (GWh);0.0;Nucléaire;0.0;Non-Renouvelable
+2014;11;Île-de-France;Production thermique (GWh);2063.0;Thermique;2063000.0;Non-Renouvelable
+2017;11;Île-de-France;Production thermique (GWh);2421.0;Thermique;2421000.0;Non-Renouvelable
+2021;11;Île-de-France;Production thermique (GWh);1938.0;Thermique;1938000.0;Non-Renouvelable
+2015;24;Centre-Val de Loire;Production thermique (GWh);292.0;Thermique;292000.0;Non-Renouvelable
+2017;24;Centre-Val de Loire;Production thermique (GWh);399.0;Thermique;399000.0;Non-Renouvelable
+2018;24;Centre-Val de Loire;Production thermique (GWh);385.0;Thermique;385000.0;Non-Renouvelable
+2024;24;Centre-Val de Loire;Production thermique (GWh);204.0;Thermique;204000.0;Non-Renouvelable
+2021;27;Bourgogne-Franche-Comté;Production thermique (GWh);739.0;Thermique;739000.0;Non-Renouvelable
+2014;28;Normandie;Production thermique (GWh);2938.0;Thermique;2938000.0;Non-Renouvelable
+2015;28;Normandie;Production thermique (GWh);3405.0;Thermique;3405000.0;Non-Renouvelable
+2017;28;Normandie;Production thermique (GWh);5000.0;Thermique;5000000.0;Non-Renouvelable
+2018;28;Normandie;Production thermique (GWh);3397.0;Thermique;3397000.0;Non-Renouvelable
+2023;32;Hauts-de-France;Production thermique (GWh);6704.0;Thermique;6704000.0;Non-Renouvelable
+2021;44;Grand Est;Production thermique (GWh);7667.0;Thermique;7667000.0;Non-Renouvelable
+2021;52;Pays de la Loire;Production thermique (GWh);4700.0;Thermique;4700000.0;Non-Renouvelable
+2016;53;Bretagne;Production thermique (GWh);577.0;Thermique;577000.0;Non-Renouvelable
+2022;53;Bretagne;Production thermique (GWh);3783.0;Thermique;3783000.0;Non-Renouvelable
+2023;53;Bretagne;Production thermique (GWh);2636.0;Thermique;2636000.0;Non-Renouvelable
+2014;75;Nouvelle-Aquitaine;Production thermique (GWh);430.0;Thermique;430000.0;Non-Renouvelable
+2017;75;Nouvelle-Aquitaine;Production thermique (GWh);1092.0;Thermique;1092000.0;Non-Renouvelable
+2018;75;Nouvelle-Aquitaine;Production thermique (GWh);870.0;Thermique;870000.0;Non-Renouvelable
+2020;75;Nouvelle-Aquitaine;Production thermique (GWh);852.0;Thermique;852000.0;Non-Renouvelable
+2021;75;Nouvelle-Aquitaine;Production thermique (GWh);906.0;Thermique;906000.0;Non-Renouvelable
+2022;75;Nouvelle-Aquitaine;Production thermique (GWh);1026.0;Thermique;1026000.0;Non-Renouvelable
+2015;84;Auvergne-Rhône-Alpes;Production thermique (GWh);2019.0;Thermique;2019000.0;Non-Renouvelable
+2017;84;Auvergne-Rhône-Alpes;Production thermique (GWh);2384.0;Thermique;2384000.0;Non-Renouvelable
+2020;84;Auvergne-Rhône-Alpes;Production thermique (GWh);2494.0;Thermique;2494000.0;Non-Renouvelable
+2015;93;Provence-Alpes-Côte d'Azur;Production thermique (GWh);5239.0;Thermique;5239000.0;Non-Renouvelable
+2016;93;Provence-Alpes-Côte d'Azur;Production thermique (GWh);9008.0;Thermique;9008000.0;Non-Renouvelable
+2018;94;Corse;Production thermique (GWh);819.0;Thermique;819000.0;Non-Renouvelable
+2022;94;Corse;Production thermique (GWh);1114.0;Thermique;1114000.0;Non-Renouvelable
+2015;11;Île-de-France;Production thermique (GWh);2384.0;Thermique;2384000.0;Non-Renouvelable
+2022;11;Île-de-France;Production thermique (GWh);2132.0;Thermique;2132000.0;Non-Renouvelable
+2019;24;Centre-Val de Loire;Production thermique (GWh);420.0;Thermique;420000.0;Non-Renouvelable
+2016;27;Bourgogne-Franche-Comté;Production thermique (GWh);648.0;Thermique;648000.0;Non-Renouvelable
+2018;27;Bourgogne-Franche-Comté;Production thermique (GWh);735.0;Thermique;735000.0;Non-Renouvelable
+2020;27;Bourgogne-Franche-Comté;Production thermique (GWh);741.0;Thermique;741000.0;Non-Renouvelable
+2022;27;Bourgogne-Franche-Comté;Production thermique (GWh);620.0;Thermique;620000.0;Non-Renouvelable
+2021;28;Normandie;Production thermique (GWh);2753.0;Thermique;2753000.0;Non-Renouvelable
+2024;28;Normandie;Production thermique (GWh);2132.0;Thermique;2132000.0;Non-Renouvelable
+2015;32;Hauts-de-France;Production thermique (GWh);5318.0;Thermique;5318000.0;Non-Renouvelable
+2015;44;Grand Est;Production thermique (GWh);7551.0;Thermique;7551000.0;Non-Renouvelable
+2018;44;Grand Est;Production thermique (GWh);8643.0;Thermique;8643000.0;Non-Renouvelable
+2024;44;Grand Est;Production thermique (GWh);3935.0;Thermique;3935000.0;Non-Renouvelable
+2019;52;Pays de la Loire;Production thermique (GWh);3417.0;Thermique;3417000.0;Non-Renouvelable
+2023;52;Pays de la Loire;Production thermique (GWh);1560.0;Thermique;1560000.0;Non-Renouvelable
+2014;53;Bretagne;Production thermique (GWh);314.0;Thermique;314000.0;Non-Renouvelable
+2021;53;Bretagne;Production thermique (GWh);1049.0;Thermique;1049000.0;Non-Renouvelable
+2018;53;Bretagne;Production thermique (GWh);829.0;Thermique;829000.0;Non-Renouvelable
+2023;75;Nouvelle-Aquitaine;Production thermique (GWh);720.0;Thermique;720000.0;Non-Renouvelable
+2023;76;Occitanie;Production thermique (GWh);270.0;Thermique;270000.0;Non-Renouvelable
+2024;76;Occitanie;Production thermique (GWh);189.0;Thermique;189000.0;Non-Renouvelable
+2014;84;Auvergne-Rhône-Alpes;Production thermique (GWh);1073.0;Thermique;1073000.0;Non-Renouvelable
+2019;84;Auvergne-Rhône-Alpes;Production thermique (GWh);2129.0;Thermique;2129000.0;Non-Renouvelable
+2018;93;Provence-Alpes-Côte d'Azur;Production thermique (GWh);5802.0;Thermique;5802000.0;Non-Renouvelable
+2023;93;Provence-Alpes-Côte d'Azur;Production thermique (GWh);4748.0;Thermique;4748000.0;Non-Renouvelable
+2024;93;Provence-Alpes-Côte d'Azur;Production thermique (GWh);2595.0;Thermique;2595000.0;Non-Renouvelable
+2019;94;Corse;Production thermique (GWh);968.0;Thermique;968000.0;Non-Renouvelable
+2023;94;Corse;Production thermique (GWh);783.0;Thermique;783000.0;Non-Renouvelable
+2019;11;Île-de-France;Production thermique (GWh);1675.0;Thermique;1675000.0;Non-Renouvelable
+2023;11;Île-de-France;Production thermique (GWh);1621.0;Thermique;1621000.0;Non-Renouvelable
+2014;24;Centre-Val de Loire;Production thermique (GWh);267.0;Thermique;267000.0;Non-Renouvelable
+2023;27;Bourgogne-Franche-Comté;Production thermique (GWh);622.0;Thermique;622000.0;Non-Renouvelable
+2024;27;Bourgogne-Franche-Comté;Production thermique (GWh);564.0;Thermique;564000.0;Non-Renouvelable
+2016;28;Normandie;Production thermique (GWh);5068.0;Thermique;5068000.0;Non-Renouvelable
+2021;32;Hauts-de-France;Production thermique (GWh);9263.0;Thermique;9263000.0;Non-Renouvelable
+2016;44;Grand Est;Production thermique (GWh);10156.0;Thermique;10156000.0;Non-Renouvelable
+2023;44;Grand Est;Production thermique (GWh);8191.0;Thermique;8191000.0;Non-Renouvelable
+2016;52;Pays de la Loire;Production thermique (GWh);4021.0;Thermique;4021000.0;Non-Renouvelable
+2018;52;Pays de la Loire;Production thermique (GWh);4530.0;Thermique;4530000.0;Non-Renouvelable
+2024;52;Pays de la Loire;Production thermique (GWh);1354.0;Thermique;1354000.0;Non-Renouvelable
+2017;53;Bretagne;Production thermique (GWh);756.0;Thermique;756000.0;Non-Renouvelable
+2016;75;Nouvelle-Aquitaine;Production thermique (GWh);877.0;Thermique;877000.0;Non-Renouvelable
+2017;76;Occitanie;Production thermique (GWh);268.0;Thermique;268000.0;Non-Renouvelable
+2019;76;Occitanie;Production thermique (GWh);308.0;Thermique;308000.0;Non-Renouvelable
+2021;76;Occitanie;Production thermique (GWh);322.0;Thermique;322000.0;Non-Renouvelable
+2022;76;Occitanie;Production thermique (GWh);302.0;Thermique;302000.0;Non-Renouvelable
+2016;84;Auvergne-Rhône-Alpes;Production thermique (GWh);2540.0;Thermique;2540000.0;Non-Renouvelable
+2021;94;Corse;Production thermique (GWh);931.0;Thermique;931000.0;Non-Renouvelable
+2020;93;Provence-Alpes-Côte d'Azur;Production thermique (GWh);6926.0;Thermique;6926000.0;Non-Renouvelable
+2016;94;Corse;Production thermique (GWh);863.0;Thermique;863000.0;Non-Renouvelable
+2020;94;Corse;Production thermique (GWh);796.0;Thermique;796000.0;Non-Renouvelable
+2024;11;Île-de-France;Production thermique (GWh);1268.0;Thermique;1268000.0;Non-Renouvelable
+2020;24;Centre-Val de Loire;Production thermique (GWh);409.0;Thermique;409000.0;Non-Renouvelable
+2021;24;Centre-Val de Loire;Production thermique (GWh);391.0;Thermique;391000.0;Non-Renouvelable
+2023;24;Centre-Val de Loire;Production thermique (GWh);294.0;Thermique;294000.0;Non-Renouvelable
+2017;27;Bourgogne-Franche-Comté;Production thermique (GWh);693.0;Thermique;693000.0;Non-Renouvelable
+2019;27;Bourgogne-Franche-Comté;Production thermique (GWh);747.0;Thermique;747000.0;Non-Renouvelable
+2020;28;Normandie;Production thermique (GWh);2937.0;Thermique;2937000.0;Non-Renouvelable
+2023;28;Normandie;Production thermique (GWh);2146.0;Thermique;2146000.0;Non-Renouvelable
+2018;32;Hauts-de-France;Production thermique (GWh);8899.0;Thermique;8899000.0;Non-Renouvelable
+2020;32;Hauts-de-France;Production thermique (GWh);9467.0;Thermique;9467000.0;Non-Renouvelable
+2022;32;Hauts-de-France;Production thermique (GWh);10995.0;Thermique;10995000.0;Non-Renouvelable
+2014;44;Grand Est;Production thermique (GWh);6115.0;Thermique;6115000.0;Non-Renouvelable
+2017;52;Pays de la Loire;Production thermique (GWh);6743.0;Thermique;6743000.0;Non-Renouvelable
+2022;52;Pays de la Loire;Production thermique (GWh);3265.0;Thermique;3265000.0;Non-Renouvelable
+2015;53;Bretagne;Production thermique (GWh);413.0;Thermique;413000.0;Non-Renouvelable
+2019;53;Bretagne;Production thermique (GWh);890.0;Thermique;890000.0;Non-Renouvelable
+2020;53;Bretagne;Production thermique (GWh);931.0;Thermique;931000.0;Non-Renouvelable
+2024;53;Bretagne;Production thermique (GWh);1627.0;Thermique;1627000.0;Non-Renouvelable
+2020;76;Occitanie;Production thermique (GWh);302.0;Thermique;302000.0;Non-Renouvelable
+2018;84;Auvergne-Rhône-Alpes;Production thermique (GWh);1499.0;Thermique;1499000.0;Non-Renouvelable
+2021;84;Auvergne-Rhône-Alpes;Production thermique (GWh);2239.0;Thermique;2239000.0;Non-Renouvelable
+2023;84;Auvergne-Rhône-Alpes;Production thermique (GWh);1407.0;Thermique;1407000.0;Non-Renouvelable
+2020;44;Grand Est;Production thermique (GWh);6742.0;Thermique;6742000.0;Non-Renouvelable
+2022;44;Grand Est;Production thermique (GWh);11281.0;Thermique;11281000.0;Non-Renouvelable
+2014;52;Pays de la Loire;Production thermique (GWh);3592.0;Thermique;3592000.0;Non-Renouvelable
+2017;93;Provence-Alpes-Côte d'Azur;Production thermique (GWh);9546.0;Thermique;9546000.0;Non-Renouvelable
+2021;93;Provence-Alpes-Côte d'Azur;Production thermique (GWh);5676.0;Thermique;5676000.0;Non-Renouvelable
+2022;93;Provence-Alpes-Côte d'Azur;Production thermique (GWh);8946.0;Thermique;8946000.0;Non-Renouvelable
+2017;94;Corse;Production thermique (GWh);1007.0;Thermique;1007000.0;Non-Renouvelable
+2016;11;Île-de-France;Production thermique (GWh);2299.0;Thermique;2299000.0;Non-Renouvelable
+2018;11;Île-de-France;Production thermique (GWh);1726.0;Thermique;1726000.0;Non-Renouvelable
+2020;11;Île-de-France;Production thermique (GWh);1739.0;Thermique;1739000.0;Non-Renouvelable
+2016;24;Centre-Val de Loire;Production thermique (GWh);312.0;Thermique;312000.0;Non-Renouvelable
+2022;24;Centre-Val de Loire;Production thermique (GWh);403.0;Thermique;403000.0;Non-Renouvelable
+2014;27;Bourgogne-Franche-Comté;Production thermique (GWh);483.0;Thermique;483000.0;Non-Renouvelable
+2015;27;Bourgogne-Franche-Comté;Production thermique (GWh);599.0;Thermique;599000.0;Non-Renouvelable
+2019;28;Normandie;Production thermique (GWh);3097.0;Thermique;3097000.0;Non-Renouvelable
+2022;28;Normandie;Production thermique (GWh);2342.0;Thermique;2342000.0;Non-Renouvelable
+2014;32;Hauts-de-France;Production thermique (GWh);3804.0;Thermique;3804000.0;Non-Renouvelable
+2016;32;Hauts-de-France;Production thermique (GWh);8345.0;Thermique;8345000.0;Non-Renouvelable
+2017;32;Hauts-de-France;Production thermique (GWh);11025.0;Thermique;11025000.0;Non-Renouvelable
+2019;32;Hauts-de-France;Production thermique (GWh);9884.0;Thermique;9884000.0;Non-Renouvelable
+2024;32;Hauts-de-France;Production thermique (GWh);3521.0;Thermique;3521000.0;Non-Renouvelable
+2017;44;Grand Est;Production thermique (GWh);12203.0;Thermique;12203000.0;Non-Renouvelable
+2019;44;Grand Est;Production thermique (GWh);9625.0;Thermique;9625000.0;Non-Renouvelable
+2015;52;Pays de la Loire;Production thermique (GWh);3848.0;Thermique;3848000.0;Non-Renouvelable
+2020;52;Pays de la Loire;Production thermique (GWh);2999.0;Thermique;2999000.0;Non-Renouvelable
+2015;75;Nouvelle-Aquitaine;Production thermique (GWh);674.0;Thermique;674000.0;Non-Renouvelable
+2019;75;Nouvelle-Aquitaine;Production thermique (GWh);935.0;Thermique;935000.0;Non-Renouvelable
+2024;75;Nouvelle-Aquitaine;Production thermique (GWh);678.0;Thermique;678000.0;Non-Renouvelable
+2014;76;Occitanie;Production thermique (GWh);242.0;Thermique;242000.0;Non-Renouvelable
+2015;76;Occitanie;Production thermique (GWh);258.0;Thermique;258000.0;Non-Renouvelable
+2016;76;Occitanie;Production thermique (GWh);297.0;Thermique;297000.0;Non-Renouvelable
+2018;76;Occitanie;Production thermique (GWh);300.0;Thermique;300000.0;Non-Renouvelable
+2022;84;Auvergne-Rhône-Alpes;Production thermique (GWh);2842.0;Thermique;2842000.0;Non-Renouvelable
+2024;84;Auvergne-Rhône-Alpes;Production thermique (GWh);1033.0;Thermique;1033000.0;Non-Renouvelable
+2014;93;Provence-Alpes-Côte d'Azur;Production thermique (GWh);2426.0;Thermique;2426000.0;Non-Renouvelable
+2019;93;Provence-Alpes-Côte d'Azur;Production thermique (GWh);7590.0;Thermique;7590000.0;Non-Renouvelable
+2014;94;Corse;Production thermique (GWh);820.0;Thermique;820000.0;Non-Renouvelable
+2015;94;Corse;Production thermique (GWh);1006.0;Thermique;1006000.0;Non-Renouvelable
+2024;94;Corse;Production thermique (GWh);882.0;Thermique;882000.0;Non-Renouvelable
+2014;11;Île-de-France;Production hydraulique (GWh);52.0;Hydraulique;52000.0;Renouvelable
+2017;11;Île-de-France;Production hydraulique (GWh);59.0;Hydraulique;59000.0;Renouvelable
+2021;11;Île-de-France;Production hydraulique (GWh);65.0;Hydraulique;65000.0;Renouvelable
+2015;24;Centre-Val de Loire;Production hydraulique (GWh);99.0;Hydraulique;99000.0;Renouvelable
+2017;24;Centre-Val de Loire;Production hydraulique (GWh);67.0;Hydraulique;67000.0;Renouvelable
+2018;24;Centre-Val de Loire;Production hydraulique (GWh);141.0;Hydraulique;141000.0;Renouvelable
+2024;24;Centre-Val de Loire;Production hydraulique (GWh);201.0;Hydraulique;201000.0;Renouvelable
+2021;27;Bourgogne-Franche-Comté;Production hydraulique (GWh);985.0;Hydraulique;985000.0;Renouvelable
+2014;28;Normandie;Production hydraulique (GWh);156.0;Hydraulique;156000.0;Renouvelable
+2015;28;Normandie;Production hydraulique (GWh);117.0;Hydraulique;117000.0;Renouvelable
+2017;28;Normandie;Production hydraulique (GWh);126.0;Hydraulique;126000.0;Renouvelable
+2018;28;Normandie;Production hydraulique (GWh);128.0;Hydraulique;128000.0;Renouvelable
+2023;32;Hauts-de-France;Production hydraulique (GWh);15.0;Hydraulique;15000.0;Renouvelable
+2021;44;Grand Est;Production hydraulique (GWh);8400.0;Hydraulique;8400000.0;Renouvelable
+2021;52;Pays de la Loire;Production hydraulique (GWh);24.0;Hydraulique;24000.0;Renouvelable
+2016;53;Bretagne;Production hydraulique (GWh);585.0;Hydraulique;585000.0;Renouvelable
+2022;53;Bretagne;Production hydraulique (GWh);592.0;Hydraulique;592000.0;Renouvelable
+2023;53;Bretagne;Production hydraulique (GWh);571.0;Hydraulique;571000.0;Renouvelable
+2014;75;Nouvelle-Aquitaine;Production hydraulique (GWh);4766.0;Hydraulique;4766000.0;Renouvelable
+2017;75;Nouvelle-Aquitaine;Production hydraulique (GWh);3322.0;Hydraulique;3322000.0;Renouvelable
+2018;75;Nouvelle-Aquitaine;Production hydraulique (GWh);4495.0;Hydraulique;4495000.0;Renouvelable
+2020;75;Nouvelle-Aquitaine;Production hydraulique (GWh);4203.0;Hydraulique;4203000.0;Renouvelable
+2021;75;Nouvelle-Aquitaine;Production hydraulique (GWh);4713.0;Hydraulique;4713000.0;Renouvelable
+2022;75;Nouvelle-Aquitaine;Production hydraulique (GWh);3108.0;Hydraulique;3108000.0;Renouvelable
+2015;84;Auvergne-Rhône-Alpes;Production hydraulique (GWh);25822.0;Hydraulique;25822000.0;Renouvelable
+2017;84;Auvergne-Rhône-Alpes;Production hydraulique (GWh);22879.0;Hydraulique;22879000.0;Renouvelable
+2020;84;Auvergne-Rhône-Alpes;Production hydraulique (GWh);28606.0;Hydraulique;28606000.0;Renouvelable
+2015;93;Provence-Alpes-Côte d'Azur;Production hydraulique (GWh);8700.0;Hydraulique;8700000.0;Renouvelable
+2016;93;Provence-Alpes-Côte d'Azur;Production hydraulique (GWh);8816.0;Hydraulique;8816000.0;Renouvelable
+2018;94;Corse;Production hydraulique (GWh);641.0;Hydraulique;641000.0;Renouvelable
+2022;94;Corse;Production hydraulique (GWh);338.0;Hydraulique;338000.0;Renouvelable
+2015;11;Île-de-France;Production hydraulique (GWh);55.0;Hydraulique;55000.0;Renouvelable
+2022;11;Île-de-France;Production hydraulique (GWh);57.0;Hydraulique;57000.0;Renouvelable
+2019;24;Centre-Val de Loire;Production hydraulique (GWh);84.0;Hydraulique;84000.0;Renouvelable
+2016;27;Bourgogne-Franche-Comté;Production hydraulique (GWh);944.0;Hydraulique;944000.0;Renouvelable
+2018;27;Bourgogne-Franche-Comté;Production hydraulique (GWh);816.0;Hydraulique;816000.0;Renouvelable
+2020;27;Bourgogne-Franche-Comté;Production hydraulique (GWh);729.0;Hydraulique;729000.0;Renouvelable
+2022;27;Bourgogne-Franche-Comté;Production hydraulique (GWh);756.0;Hydraulique;756000.0;Renouvelable
+2021;28;Normandie;Production hydraulique (GWh);102.0;Hydraulique;102000.0;Renouvelable
+2024;28;Normandie;Production hydraulique (GWh);120.0;Hydraulique;120000.0;Renouvelable
+2015;32;Hauts-de-France;Production hydraulique (GWh);13.0;Hydraulique;13000.0;Renouvelable
+2015;44;Grand Est;Production hydraulique (GWh);8093.0;Hydraulique;8093000.0;Renouvelable
+2018;44;Grand Est;Production hydraulique (GWh);7336.0;Hydraulique;7336000.0;Renouvelable
+2024;44;Grand Est;Production hydraulique (GWh);9467.0;Hydraulique;9467000.0;Renouvelable
+2019;52;Pays de la Loire;Production hydraulique (GWh);19.0;Hydraulique;19000.0;Renouvelable
+2023;52;Pays de la Loire;Production hydraulique (GWh);26.0;Hydraulique;26000.0;Renouvelable
+2014;53;Bretagne;Production hydraulique (GWh);585.0;Hydraulique;585000.0;Renouvelable
+2021;53;Bretagne;Production hydraulique (GWh);603.0;Hydraulique;603000.0;Renouvelable
+2018;53;Bretagne;Production hydraulique (GWh);575.0;Hydraulique;575000.0;Renouvelable
+2023;75;Nouvelle-Aquitaine;Production hydraulique (GWh);4359.0;Hydraulique;4359000.0;Renouvelable
+2023;76;Occitanie;Production hydraulique (GWh);9264.0;Hydraulique;9264000.0;Renouvelable
+2024;76;Occitanie;Production hydraulique (GWh);12897.0;Hydraulique;12897000.0;Renouvelable
+2014;84;Auvergne-Rhône-Alpes;Production hydraulique (GWh);28206.0;Hydraulique;28206000.0;Renouvelable
+2019;84;Auvergne-Rhône-Alpes;Production hydraulique (GWh);26751.0;Hydraulique;26751000.0;Renouvelable
+2018;93;Provence-Alpes-Côte d'Azur;Production hydraulique (GWh);10515.0;Hydraulique;10515000.0;Renouvelable
+2023;93;Provence-Alpes-Côte d'Azur;Production hydraulique (GWh);8422.0;Hydraulique;8422000.0;Renouvelable
+2024;93;Provence-Alpes-Côte d'Azur;Production hydraulique (GWh);12075.0;Hydraulique;12075000.0;Renouvelable
+2019;94;Corse;Production hydraulique (GWh);403.0;Hydraulique;403000.0;Renouvelable
+2023;94;Corse;Production hydraulique (GWh);567.0;Hydraulique;567000.0;Renouvelable
+2019;11;Île-de-France;Production hydraulique (GWh);62.0;Hydraulique;62000.0;Renouvelable
+2023;11;Île-de-France;Production hydraulique (GWh);66.0;Hydraulique;66000.0;Renouvelable
+2014;24;Centre-Val de Loire;Production hydraulique (GWh);139.0;Hydraulique;139000.0;Renouvelable
+2023;27;Bourgogne-Franche-Comté;Production hydraulique (GWh);847.0;Hydraulique;847000.0;Renouvelable
+2024;27;Bourgogne-Franche-Comté;Production hydraulique (GWh);1065.0;Hydraulique;1065000.0;Renouvelable
+2016;28;Normandie;Production hydraulique (GWh);131.0;Hydraulique;131000.0;Renouvelable
+2021;32;Hauts-de-France;Production hydraulique (GWh);17.0;Hydraulique;17000.0;Renouvelable
+2016;44;Grand Est;Production hydraulique (GWh);9028.0;Hydraulique;9028000.0;Renouvelable
+2023;44;Grand Est;Production hydraulique (GWh);7800.0;Hydraulique;7800000.0;Renouvelable
+2016;52;Pays de la Loire;Production hydraulique (GWh);19.0;Hydraulique;19000.0;Renouvelable
+2018;52;Pays de la Loire;Production hydraulique (GWh);19.0;Hydraulique;19000.0;Renouvelable
+2024;52;Pays de la Loire;Production hydraulique (GWh);29.0;Hydraulique;29000.0;Renouvelable
+2017;53;Bretagne;Production hydraulique (GWh);579.0;Hydraulique;579000.0;Renouvelable
+2016;75;Nouvelle-Aquitaine;Production hydraulique (GWh);4666.0;Hydraulique;4666000.0;Renouvelable
+2017;76;Occitanie;Production hydraulique (GWh);9419.0;Hydraulique;9419000.0;Renouvelable
+2019;76;Occitanie;Production hydraulique (GWh);9956.0;Hydraulique;9956000.0;Renouvelable
+2021;76;Occitanie;Production hydraulique (GWh);10260.0;Hydraulique;10260000.0;Renouvelable
+2022;76;Occitanie;Production hydraulique (GWh);9114.0;Hydraulique;9114000.0;Renouvelable
+2016;84;Auvergne-Rhône-Alpes;Production hydraulique (GWh);27657.0;Hydraulique;27657000.0;Renouvelable
+2021;94;Corse;Production hydraulique (GWh);537.0;Hydraulique;537000.0;Renouvelable
+2020;93;Provence-Alpes-Côte d'Azur;Production hydraulique (GWh);10811.0;Hydraulique;10811000.0;Renouvelable
+2016;94;Corse;Production hydraulique (GWh);471.0;Hydraulique;471000.0;Renouvelable
+2020;94;Corse;Production hydraulique (GWh);500.0;Hydraulique;500000.0;Renouvelable
+2024;11;Île-de-France;Production hydraulique (GWh);56.0;Hydraulique;56000.0;Renouvelable
+2020;24;Centre-Val de Loire;Production hydraulique (GWh);127.0;Hydraulique;127000.0;Renouvelable
+2021;24;Centre-Val de Loire;Production hydraulique (GWh);129.0;Hydraulique;129000.0;Renouvelable
+2023;24;Centre-Val de Loire;Production hydraulique (GWh);105.0;Hydraulique;105000.0;Renouvelable
+2017;27;Bourgogne-Franche-Comté;Production hydraulique (GWh);641.0;Hydraulique;641000.0;Renouvelable
+2019;27;Bourgogne-Franche-Comté;Production hydraulique (GWh);879.0;Hydraulique;879000.0;Renouvelable
+2020;28;Normandie;Production hydraulique (GWh);104.0;Hydraulique;104000.0;Renouvelable
+2023;28;Normandie;Production hydraulique (GWh);118.0;Hydraulique;118000.0;Renouvelable
+2018;32;Hauts-de-France;Production hydraulique (GWh);13.0;Hydraulique;13000.0;Renouvelable
+2020;32;Hauts-de-France;Production hydraulique (GWh);13.0;Hydraulique;13000.0;Renouvelable
+2022;32;Hauts-de-France;Production hydraulique (GWh);12.0;Hydraulique;12000.0;Renouvelable
+2014;44;Grand Est;Production hydraulique (GWh);8722.0;Hydraulique;8722000.0;Renouvelable
+2017;52;Pays de la Loire;Production hydraulique (GWh);11.0;Hydraulique;11000.0;Renouvelable
+2022;52;Pays de la Loire;Production hydraulique (GWh);19.0;Hydraulique;19000.0;Renouvelable
+2015;53;Bretagne;Production hydraulique (GWh);571.0;Hydraulique;571000.0;Renouvelable
+2019;53;Bretagne;Production hydraulique (GWh);592.0;Hydraulique;592000.0;Renouvelable
+2020;53;Bretagne;Production hydraulique (GWh);618.0;Hydraulique;618000.0;Renouvelable
+2024;53;Bretagne;Production hydraulique (GWh);589.0;Hydraulique;589000.0;Renouvelable
+2020;76;Occitanie;Production hydraulique (GWh);11425.0;Hydraulique;11425000.0;Renouvelable
+2018;84;Auvergne-Rhône-Alpes;Production hydraulique (GWh);29213.0;Hydraulique;29213000.0;Renouvelable
+2021;84;Auvergne-Rhône-Alpes;Production hydraulique (GWh);27534.0;Hydraulique;27534000.0;Renouvelable
+2023;84;Auvergne-Rhône-Alpes;Production hydraulique (GWh);26678.0;Hydraulique;26678000.0;Renouvelable
+2020;44;Grand Est;Production hydraulique (GWh);7729.0;Hydraulique;7729000.0;Renouvelable
+2022;44;Grand Est;Production hydraulique (GWh);7360.0;Hydraulique;7360000.0;Renouvelable
+2014;52;Pays de la Loire;Production hydraulique (GWh);24.0;Hydraulique;24000.0;Renouvelable
+2017;93;Provence-Alpes-Côte d'Azur;Production hydraulique (GWh);7673.0;Hydraulique;7673000.0;Renouvelable
+2021;93;Provence-Alpes-Côte d'Azur;Production hydraulique (GWh);8607.0;Hydraulique;8607000.0;Renouvelable
+2022;93;Provence-Alpes-Côte d'Azur;Production hydraulique (GWh);5534.0;Hydraulique;5534000.0;Renouvelable
+2017;94;Corse;Production hydraulique (GWh);383.0;Hydraulique;383000.0;Renouvelable
+2016;11;Île-de-France;Production hydraulique (GWh);58.0;Hydraulique;58000.0;Renouvelable
+2018;11;Île-de-France;Production hydraulique (GWh);41.0;Hydraulique;41000.0;Renouvelable
+2020;11;Île-de-France;Production hydraulique (GWh);43.0;Hydraulique;43000.0;Renouvelable
+2016;24;Centre-Val de Loire;Production hydraulique (GWh);128.0;Hydraulique;128000.0;Renouvelable
+2022;24;Centre-Val de Loire;Production hydraulique (GWh);63.0;Hydraulique;63000.0;Renouvelable
+2014;27;Bourgogne-Franche-Comté;Production hydraulique (GWh);790.0;Hydraulique;790000.0;Renouvelable
+2015;27;Bourgogne-Franche-Comté;Production hydraulique (GWh);742.0;Hydraulique;742000.0;Renouvelable
+2019;28;Normandie;Production hydraulique (GWh);105.0;Hydraulique;105000.0;Renouvelable
+2022;28;Normandie;Production hydraulique (GWh);107.0;Hydraulique;107000.0;Renouvelable
+2014;32;Hauts-de-France;Production hydraulique (GWh);15.0;Hydraulique;15000.0;Renouvelable
+2016;32;Hauts-de-France;Production hydraulique (GWh);16.0;Hydraulique;16000.0;Renouvelable
+2017;32;Hauts-de-France;Production hydraulique (GWh);11.0;Hydraulique;11000.0;Renouvelable
+2019;32;Hauts-de-France;Production hydraulique (GWh);13.0;Hydraulique;13000.0;Renouvelable
+2024;32;Hauts-de-France;Production hydraulique (GWh);15.0;Hydraulique;15000.0;Renouvelable
+2017;44;Grand Est;Production hydraulique (GWh);8015.0;Hydraulique;8015000.0;Renouvelable
+2019;44;Grand Est;Production hydraulique (GWh);8599.0;Hydraulique;8599000.0;Renouvelable
+2015;52;Pays de la Loire;Production hydraulique (GWh);18.0;Hydraulique;18000.0;Renouvelable
+2020;52;Pays de la Loire;Production hydraulique (GWh);22.0;Hydraulique;22000.0;Renouvelable
+2015;75;Nouvelle-Aquitaine;Production hydraulique (GWh);3588.0;Hydraulique;3588000.0;Renouvelable
+2019;75;Nouvelle-Aquitaine;Production hydraulique (GWh);3723.0;Hydraulique;3723000.0;Renouvelable
+2024;75;Nouvelle-Aquitaine;Production hydraulique (GWh);5658.0;Hydraulique;5658000.0;Renouvelable
+2014;76;Occitanie;Production hydraulique (GWh);12925.0;Hydraulique;12925000.0;Renouvelable
+2015;76;Occitanie;Production hydraulique (GWh);10584.0;Hydraulique;10584000.0;Renouvelable
+2016;76;Occitanie;Production hydraulique (GWh);11115.0;Hydraulique;11115000.0;Renouvelable
+2018;76;Occitanie;Production hydraulique (GWh);13906.0;Hydraulique;13906000.0;Renouvelable
+2022;84;Auvergne-Rhône-Alpes;Production hydraulique (GWh);22560.0;Hydraulique;22560000.0;Renouvelable
+2024;84;Auvergne-Rhône-Alpes;Production hydraulique (GWh);32459.0;Hydraulique;32459000.0;Renouvelable
+2014;93;Provence-Alpes-Côte d'Azur;Production hydraulique (GWh);10536.0;Hydraulique;10536000.0;Renouvelable
+2019;93;Provence-Alpes-Côte d'Azur;Production hydraulique (GWh);8422.0;Hydraulique;8422000.0;Renouvelable
+2014;94;Corse;Production hydraulique (GWh);493.0;Hydraulique;493000.0;Renouvelable
+2015;94;Corse;Production hydraulique (GWh);347.0;Hydraulique;347000.0;Renouvelable
+2024;94;Corse;Production hydraulique (GWh);430.0;Hydraulique;430000.0;Renouvelable
+2014;11;Île-de-France;Production éolienne (GWh);38.0;Éolienne;38000.0;Renouvelable
+2017;11;Île-de-France;Production éolienne (GWh);92.0;Éolienne;92000.0;Renouvelable
+2021;11;Île-de-France;Production éolienne (GWh);274.0;Éolienne;274000.0;Renouvelable
+2015;24;Centre-Val de Loire;Production éolienne (GWh);1928.0;Éolienne;1928000.0;Renouvelable
+2017;24;Centre-Val de Loire;Production éolienne (GWh);1889.0;Éolienne;1889000.0;Renouvelable
+2018;24;Centre-Val de Loire;Production éolienne (GWh);2043.0;Éolienne;2043000.0;Renouvelable
+2024;24;Centre-Val de Loire;Production éolienne (GWh);3189.0;Éolienne;3189000.0;Renouvelable
+2021;27;Bourgogne-Franche-Comté;Production éolienne (GWh);1932.0;Éolienne;1932000.0;Renouvelable
+2014;28;Normandie;Production éolienne (GWh);1047.0;Éolienne;1047000.0;Renouvelable
+2015;28;Normandie;Production éolienne (GWh);1260.0;Éolienne;1260000.0;Renouvelable
+2017;28;Normandie;Production éolienne (GWh);1295.0;Éolienne;1295000.0;Renouvelable
+2018;28;Normandie;Production éolienne (GWh);1518.0;Éolienne;1518000.0;Renouvelable
+2023;32;Hauts-de-France;Production éolienne (GWh);14533.0;Éolienne;14533000.0;Renouvelable
+2021;44;Grand Est;Production éolienne (GWh);7625.0;Éolienne;7625000.0;Renouvelable
+2021;52;Pays de la Loire;Production éolienne (GWh);2246.0;Éolienne;2246000.0;Renouvelable
+2016;53;Bretagne;Production éolienne (GWh);1479.0;Éolienne;1479000.0;Renouvelable
+2022;53;Bretagne;Production éolienne (GWh);2034.0;Éolienne;2034000.0;Renouvelable
+2023;53;Bretagne;Production éolienne (GWh);2666.0;Éolienne;2666000.0;Renouvelable
+2014;75;Nouvelle-Aquitaine;Production éolienne (GWh);820.0;Éolienne;820000.0;Renouvelable
+2017;75;Nouvelle-Aquitaine;Production éolienne (GWh);1228.0;Éolienne;1228000.0;Renouvelable
+2018;75;Nouvelle-Aquitaine;Production éolienne (GWh);1735.0;Éolienne;1735000.0;Renouvelable
+2020;75;Nouvelle-Aquitaine;Production éolienne (GWh);2410.0;Éolienne;2410000.0;Renouvelable
+2021;75;Nouvelle-Aquitaine;Production éolienne (GWh);2761.0;Éolienne;2761000.0;Renouvelable
+2022;75;Nouvelle-Aquitaine;Production éolienne (GWh);2917.0;Éolienne;2917000.0;Renouvelable
+2015;84;Auvergne-Rhône-Alpes;Production éolienne (GWh);799.0;Éolienne;799000.0;Renouvelable
+2017;84;Auvergne-Rhône-Alpes;Production éolienne (GWh);1008.0;Éolienne;1008000.0;Renouvelable
+2020;84;Auvergne-Rhône-Alpes;Production éolienne (GWh);1144.0;Éolienne;1144000.0;Renouvelable
+2015;93;Provence-Alpes-Côte d'Azur;Production éolienne (GWh);105.0;Éolienne;105000.0;Renouvelable
+2016;93;Provence-Alpes-Côte d'Azur;Production éolienne (GWh);109.0;Éolienne;109000.0;Renouvelable
+2018;94;Corse;Production éolienne (GWh);13.0;Éolienne;13000.0;Renouvelable
+2022;94;Corse;Production éolienne (GWh);10.0;Éolienne;10000.0;Renouvelable
+2015;11;Île-de-France;Production éolienne (GWh);53.0;Éolienne;53000.0;Renouvelable
+2022;11;Île-de-France;Production éolienne (GWh);322.0;Éolienne;322000.0;Renouvelable
+2019;24;Centre-Val de Loire;Production éolienne (GWh);2592.0;Éolienne;2592000.0;Renouvelable
+2016;27;Bourgogne-Franche-Comté;Production éolienne (GWh);779.0;Éolienne;779000.0;Renouvelable
+2018;27;Bourgogne-Franche-Comté;Production éolienne (GWh);1311.0;Éolienne;1311000.0;Renouvelable
+2020;27;Bourgogne-Franche-Comté;Production éolienne (GWh);1943.0;Éolienne;1943000.0;Renouvelable
+2022;27;Bourgogne-Franche-Comté;Production éolienne (GWh);2017.0;Éolienne;2017000.0;Renouvelable
+2021;28;Normandie;Production éolienne (GWh);1793.0;Éolienne;1793000.0;Renouvelable
+2024;28;Normandie;Production éolienne (GWh);3437.0;Éolienne;3437000.0;Renouvelable
+2015;32;Hauts-de-France;Production éolienne (GWh);4966.0;Éolienne;4966000.0;Renouvelable
+2015;44;Grand Est;Production éolienne (GWh);5166.0;Éolienne;5166000.0;Renouvelable
+2018;44;Grand Est;Production éolienne (GWh);6326.0;Éolienne;6326000.0;Renouvelable
+2024;44;Grand Est;Production éolienne (GWh);9149.0;Éolienne;9149000.0;Renouvelable
+2019;52;Pays de la Loire;Production éolienne (GWh);1972.0;Éolienne;1972000.0;Renouvelable
+2023;52;Pays de la Loire;Production éolienne (GWh);4279.0;Éolienne;4279000.0;Renouvelable
+2014;53;Bretagne;Production éolienne (GWh);1396.0;Éolienne;1396000.0;Renouvelable
+2021;53;Bretagne;Production éolienne (GWh);1946.0;Éolienne;1946000.0;Renouvelable
+2018;53;Bretagne;Production éolienne (GWh);1804.0;Éolienne;1804000.0;Renouvelable
+2023;75;Nouvelle-Aquitaine;Production éolienne (GWh);3553.0;Éolienne;3553000.0;Renouvelable
+2023;76;Occitanie;Production éolienne (GWh);3505.0;Éolienne;3505000.0;Renouvelable
+2024;76;Occitanie;Production éolienne (GWh);3701.0;Éolienne;3701000.0;Renouvelable
+2014;84;Auvergne-Rhône-Alpes;Production éolienne (GWh);764.0;Éolienne;764000.0;Renouvelable
+2019;84;Auvergne-Rhône-Alpes;Production éolienne (GWh);1193.0;Éolienne;1193000.0;Renouvelable
+2018;93;Provence-Alpes-Côte d'Azur;Production éolienne (GWh);100.0;Éolienne;100000.0;Renouvelable
+2023;93;Provence-Alpes-Côte d'Azur;Production éolienne (GWh);192.0;Éolienne;192000.0;Renouvelable
+2024;93;Provence-Alpes-Côte d'Azur;Production éolienne (GWh);207.0;Éolienne;207000.0;Renouvelable
+2019;94;Corse;Production éolienne (GWh);9.0;Éolienne;9000.0;Renouvelable
+2023;94;Corse;Production éolienne (GWh);18.0;Éolienne;18000.0;Renouvelable
+2019;11;Île-de-France;Production éolienne (GWh);185.0;Éolienne;185000.0;Renouvelable
+2023;11;Île-de-France;Production éolienne (GWh);405.0;Éolienne;405000.0;Renouvelable
+2014;24;Centre-Val de Loire;Production éolienne (GWh);1626.0;Éolienne;1626000.0;Renouvelable
+2023;27;Bourgogne-Franche-Comté;Production éolienne (GWh);2639.0;Éolienne;2639000.0;Renouvelable
+2024;27;Bourgogne-Franche-Comté;Production éolienne (GWh);2216.0;Éolienne;2216000.0;Renouvelable
+2016;28;Normandie;Production éolienne (GWh);1184.0;Éolienne;1184000.0;Renouvelable
+2021;32;Hauts-de-France;Production éolienne (GWh);10362.0;Éolienne;10362000.0;Renouvelable
+2016;44;Grand Est;Production éolienne (GWh);4938.0;Éolienne;4938000.0;Renouvelable
+2023;44;Grand Est;Production éolienne (GWh);11251.0;Éolienne;11251000.0;Renouvelable
+2016;52;Pays de la Loire;Production éolienne (GWh);1262.0;Éolienne;1262000.0;Renouvelable
+2018;52;Pays de la Loire;Production éolienne (GWh);1632.0;Éolienne;1632000.0;Renouvelable
+2024;52;Pays de la Loire;Production éolienne (GWh);3859.0;Éolienne;3859000.0;Renouvelable
+2017;53;Bretagne;Production éolienne (GWh);1540.0;Éolienne;1540000.0;Renouvelable
+2016;75;Nouvelle-Aquitaine;Production éolienne (GWh);924.0;Éolienne;924000.0;Renouvelable
+2017;76;Occitanie;Production éolienne (GWh);3045.0;Éolienne;3045000.0;Renouvelable
+2019;76;Occitanie;Production éolienne (GWh);3735.0;Éolienne;3735000.0;Renouvelable
+2021;76;Occitanie;Production éolienne (GWh);3476.0;Éolienne;3476000.0;Renouvelable
+2022;76;Occitanie;Production éolienne (GWh);3124.0;Éolienne;3124000.0;Renouvelable
+2016;84;Auvergne-Rhône-Alpes;Production éolienne (GWh);857.0;Éolienne;857000.0;Renouvelable
+2021;94;Corse;Production éolienne (GWh);12.0;Éolienne;12000.0;Renouvelable
+2020;93;Provence-Alpes-Côte d'Azur;Production éolienne (GWh);95.0;Éolienne;95000.0;Renouvelable
+2016;94;Corse;Production éolienne (GWh);33.0;Éolienne;33000.0;Renouvelable
+2020;94;Corse;Production éolienne (GWh);11.0;Éolienne;11000.0;Renouvelable
+2024;11;Île-de-France;Production éolienne (GWh);319.0;Éolienne;319000.0;Renouvelable
+2020;24;Centre-Val de Loire;Production éolienne (GWh);3117.0;Éolienne;3117000.0;Renouvelable
+2021;24;Centre-Val de Loire;Production éolienne (GWh);2930.0;Éolienne;2930000.0;Renouvelable
+2023;24;Centre-Val de Loire;Production éolienne (GWh);3727.0;Éolienne;3727000.0;Renouvelable
+2017;27;Bourgogne-Franche-Comté;Production éolienne (GWh);1102.0;Éolienne;1102000.0;Renouvelable
+2019;27;Bourgogne-Franche-Comté;Production éolienne (GWh);1770.0;Éolienne;1770000.0;Renouvelable
+2020;28;Normandie;Production éolienne (GWh);2046.0;Éolienne;2046000.0;Renouvelable
+2023;28;Normandie;Production éolienne (GWh);2641.0;Éolienne;2641000.0;Renouvelable
+2018;32;Hauts-de-France;Production éolienne (GWh);7144.0;Éolienne;7144000.0;Renouvelable
+2020;32;Hauts-de-France;Production éolienne (GWh);11653.0;Éolienne;11653000.0;Renouvelable
+2022;32;Hauts-de-France;Production éolienne (GWh);10981.0;Éolienne;10981000.0;Renouvelable
+2014;44;Grand Est;Production éolienne (GWh);3977.0;Éolienne;3977000.0;Renouvelable
+2017;52;Pays de la Loire;Production éolienne (GWh);1349.0;Éolienne;1349000.0;Renouvelable
+2022;52;Pays de la Loire;Production éolienne (GWh);2888.0;Éolienne;2888000.0;Renouvelable
+2015;53;Bretagne;Production éolienne (GWh);1651.0;Éolienne;1651000.0;Renouvelable
+2019;53;Bretagne;Production éolienne (GWh);1939.0;Éolienne;1939000.0;Renouvelable
+2020;53;Bretagne;Production éolienne (GWh);2241.0;Éolienne;2241000.0;Renouvelable
+2024;53;Bretagne;Production éolienne (GWh);3430.0;Éolienne;3430000.0;Renouvelable
+2020;76;Occitanie;Production éolienne (GWh);3612.0;Éolienne;3612000.0;Renouvelable
+2018;84;Auvergne-Rhône-Alpes;Production éolienne (GWh);1082.0;Éolienne;1082000.0;Renouvelable
+2021;84;Auvergne-Rhône-Alpes;Production éolienne (GWh);1350.0;Éolienne;1350000.0;Renouvelable
+2023;84;Auvergne-Rhône-Alpes;Production éolienne (GWh);1479.0;Éolienne;1479000.0;Renouvelable
+2020;44;Grand Est;Production éolienne (GWh);8749.0;Éolienne;8749000.0;Renouvelable
+2022;44;Grand Est;Production éolienne (GWh);8266.0;Éolienne;8266000.0;Renouvelable
+2014;52;Pays de la Loire;Production éolienne (GWh);1072.0;Éolienne;1072000.0;Renouvelable
+2017;93;Provence-Alpes-Côte d'Azur;Production éolienne (GWh);118.0;Éolienne;118000.0;Renouvelable
+2021;93;Provence-Alpes-Côte d'Azur;Production éolienne (GWh);201.0;Éolienne;201000.0;Renouvelable
+2022;93;Provence-Alpes-Côte d'Azur;Production éolienne (GWh);177.0;Éolienne;177000.0;Renouvelable
+2017;94;Corse;Production éolienne (GWh);22.0;Éolienne;22000.0;Renouvelable
+2016;11;Île-de-France;Production éolienne (GWh);61.0;Éolienne;61000.0;Renouvelable
+2018;11;Île-de-France;Production éolienne (GWh);134.0;Éolienne;134000.0;Renouvelable
+2020;11;Île-de-France;Production éolienne (GWh);266.0;Éolienne;266000.0;Renouvelable
+2016;24;Centre-Val de Loire;Production éolienne (GWh);1802.0;Éolienne;1802000.0;Renouvelable
+2022;24;Centre-Val de Loire;Production éolienne (GWh);2872.0;Éolienne;2872000.0;Renouvelable
+2014;27;Bourgogne-Franche-Comté;Production éolienne (GWh);374.0;Éolienne;374000.0;Renouvelable
+2015;27;Bourgogne-Franche-Comté;Production éolienne (GWh);695.0;Éolienne;695000.0;Renouvelable
+2019;28;Normandie;Production éolienne (GWh);1775.0;Éolienne;1775000.0;Renouvelable
+2022;28;Normandie;Production éolienne (GWh);1841.0;Éolienne;1841000.0;Renouvelable
+2014;32;Hauts-de-France;Production éolienne (GWh);3643.0;Éolienne;3643000.0;Renouvelable
+2016;32;Hauts-de-France;Production éolienne (GWh);4942.0;Éolienne;4942000.0;Renouvelable
+2017;32;Hauts-de-France;Production éolienne (GWh);5723.0;Éolienne;5723000.0;Renouvelable
+2019;32;Hauts-de-France;Production éolienne (GWh);8933.0;Éolienne;8933000.0;Renouvelable
+2024;32;Hauts-de-France;Production éolienne (GWh);12515.0;Éolienne;12515000.0;Renouvelable
+2017;44;Grand Est;Production éolienne (GWh);5568.0;Éolienne;5568000.0;Renouvelable
+2019;44;Grand Est;Production éolienne (GWh);7638.0;Éolienne;7638000.0;Renouvelable
+2015;52;Pays de la Loire;Production éolienne (GWh);1223.0;Éolienne;1223000.0;Renouvelable
+2020;52;Pays de la Loire;Production éolienne (GWh);2395.0;Éolienne;2395000.0;Renouvelable
+2015;75;Nouvelle-Aquitaine;Production éolienne (GWh);924.0;Éolienne;924000.0;Renouvelable
+2019;75;Nouvelle-Aquitaine;Production éolienne (GWh);1931.0;Éolienne;1931000.0;Renouvelable
+2024;75;Nouvelle-Aquitaine;Production éolienne (GWh);3312.0;Éolienne;3312000.0;Renouvelable
+2014;76;Occitanie;Production éolienne (GWh);2078.0;Éolienne;2078000.0;Renouvelable
+2015;76;Occitanie;Production éolienne (GWh);2318.0;Éolienne;2318000.0;Renouvelable
+2016;76;Occitanie;Production éolienne (GWh);2575.0;Éolienne;2575000.0;Renouvelable
+2018;76;Occitanie;Production éolienne (GWh);3252.0;Éolienne;3252000.0;Renouvelable
+2022;84;Auvergne-Rhône-Alpes;Production éolienne (GWh);1437.0;Éolienne;1437000.0;Renouvelable
+2024;84;Auvergne-Rhône-Alpes;Production éolienne (GWh);1489.0;Éolienne;1489000.0;Renouvelable
+2014;93;Provence-Alpes-Côte d'Azur;Production éolienne (GWh);106.0;Éolienne;106000.0;Renouvelable
+2019;93;Provence-Alpes-Côte d'Azur;Production éolienne (GWh);104.0;Éolienne;104000.0;Renouvelable
+2014;94;Corse;Production éolienne (GWh);31.0;Éolienne;31000.0;Renouvelable
+2015;94;Corse;Production éolienne (GWh);24.0;Éolienne;24000.0;Renouvelable
+2024;94;Corse;Production éolienne (GWh);34.0;Éolienne;34000.0;Renouvelable
+2014;11;Île-de-France;Production solaire (GWh);66.0;Solaire;66000.0;Renouvelable
+2017;11;Île-de-France;Production solaire (GWh);70.0;Solaire;70000.0;Renouvelable
+2021;11;Île-de-France;Production solaire (GWh);154.0;Solaire;154000.0;Renouvelable
+2015;24;Centre-Val de Loire;Production solaire (GWh);234.0;Solaire;234000.0;Renouvelable
+2017;24;Centre-Val de Loire;Production solaire (GWh);267.0;Solaire;267000.0;Renouvelable
+2018;24;Centre-Val de Loire;Production solaire (GWh);305.0;Solaire;305000.0;Renouvelable
+2024;24;Centre-Val de Loire;Production solaire (GWh);1226.0;Solaire;1226000.0;Renouvelable
+2021;27;Bourgogne-Franche-Comté;Production solaire (GWh);415.0;Solaire;415000.0;Renouvelable
+2014;28;Normandie;Production solaire (GWh);112.0;Solaire;112000.0;Renouvelable
+2015;28;Normandie;Production solaire (GWh);122.0;Solaire;122000.0;Renouvelable
+2017;28;Normandie;Production solaire (GWh);129.0;Solaire;129000.0;Renouvelable
+2018;28;Normandie;Production solaire (GWh);150.0;Solaire;150000.0;Renouvelable
+2023;32;Hauts-de-France;Production solaire (GWh);574.0;Solaire;574000.0;Renouvelable
+2021;44;Grand Est;Production solaire (GWh);841.0;Solaire;841000.0;Renouvelable
+2021;52;Pays de la Loire;Production solaire (GWh);770.0;Solaire;770000.0;Renouvelable
+2016;53;Bretagne;Production solaire (GWh);197.0;Solaire;197000.0;Renouvelable
+2022;53;Bretagne;Production solaire (GWh);421.0;Solaire;421000.0;Renouvelable
+2023;53;Bretagne;Production solaire (GWh);526.0;Solaire;526000.0;Renouvelable
+2014;75;Nouvelle-Aquitaine;Production solaire (GWh);1171.0;Solaire;1171000.0;Renouvelable
+2017;75;Nouvelle-Aquitaine;Production solaire (GWh);2452.0;Solaire;2452000.0;Renouvelable
+2018;75;Nouvelle-Aquitaine;Production solaire (GWh);2967.0;Solaire;2967000.0;Renouvelable
+2020;75;Nouvelle-Aquitaine;Production solaire (GWh);3477.0;Solaire;3477000.0;Renouvelable
+2021;75;Nouvelle-Aquitaine;Production solaire (GWh);3792.0;Solaire;3792000.0;Renouvelable
+2022;75;Nouvelle-Aquitaine;Production solaire (GWh);4810.0;Solaire;4810000.0;Renouvelable
+2015;84;Auvergne-Rhône-Alpes;Production solaire (GWh);780.0;Solaire;780000.0;Renouvelable
+2017;84;Auvergne-Rhône-Alpes;Production solaire (GWh);887.0;Solaire;887000.0;Renouvelable
+2020;84;Auvergne-Rhône-Alpes;Production solaire (GWh);1362.0;Solaire;1362000.0;Renouvelable
+2015;93;Provence-Alpes-Côte d'Azur;Production solaire (GWh);1205.0;Solaire;1205000.0;Renouvelable
+2016;93;Provence-Alpes-Côte d'Azur;Production solaire (GWh);1343.0;Solaire;1343000.0;Renouvelable
+2018;94;Corse;Production solaire (GWh);184.0;Solaire;184000.0;Renouvelable
+2022;94;Corse;Production solaire (GWh);273.0;Solaire;273000.0;Renouvelable
+2015;11;Île-de-France;Production solaire (GWh);72.0;Solaire;72000.0;Renouvelable
+2022;11;Île-de-France;Production solaire (GWh);230.0;Solaire;230000.0;Renouvelable
+2019;24;Centre-Val de Loire;Production solaire (GWh);349.0;Solaire;349000.0;Renouvelable
+2016;27;Bourgogne-Franche-Comté;Production solaire (GWh);216.0;Solaire;216000.0;Renouvelable
+2018;27;Bourgogne-Franche-Comté;Production solaire (GWh);292.0;Solaire;292000.0;Renouvelable
+2020;27;Bourgogne-Franche-Comté;Production solaire (GWh);385.0;Solaire;385000.0;Renouvelable
+2022;27;Bourgogne-Franche-Comté;Production solaire (GWh);705.0;Solaire;705000.0;Renouvelable
+2021;28;Normandie;Production solaire (GWh);216.0;Solaire;216000.0;Renouvelable
+2024;28;Normandie;Production solaire (GWh);374.0;Solaire;374000.0;Renouvelable
+2015;32;Hauts-de-France;Production solaire (GWh);126.0;Solaire;126000.0;Renouvelable
+2015;44;Grand Est;Production solaire (GWh);495.0;Solaire;495000.0;Renouvelable
+2018;44;Grand Est;Production solaire (GWh);676.0;Solaire;676000.0;Renouvelable
+2024;44;Grand Est;Production solaire (GWh);1685.0;Solaire;1685000.0;Renouvelable
+2019;52;Pays de la Loire;Production solaire (GWh);616.0;Solaire;616000.0;Renouvelable
+2023;52;Pays de la Loire;Production solaire (GWh);1273.0;Solaire;1273000.0;Renouvelable
+2014;53;Bretagne;Production solaire (GWh);177.0;Solaire;177000.0;Renouvelable
+2021;53;Bretagne;Production solaire (GWh);285.0;Solaire;285000.0;Renouvelable
+2018;53;Bretagne;Production solaire (GWh);225.0;Solaire;225000.0;Renouvelable
+2023;75;Nouvelle-Aquitaine;Production solaire (GWh);5530.0;Solaire;5530000.0;Renouvelable
+2023;76;Occitanie;Production solaire (GWh);4555.0;Solaire;4555000.0;Renouvelable
+2024;76;Occitanie;Production solaire (GWh);5053.0;Solaire;5053000.0;Renouvelable
+2014;84;Auvergne-Rhône-Alpes;Production solaire (GWh);632.0;Solaire;632000.0;Renouvelable
+2019;84;Auvergne-Rhône-Alpes;Production solaire (GWh);1247.0;Solaire;1247000.0;Renouvelable
+2018;93;Provence-Alpes-Côte d'Azur;Production solaire (GWh);1624.0;Solaire;1624000.0;Renouvelable
+2023;93;Provence-Alpes-Côte d'Azur;Production solaire (GWh);3153.0;Solaire;3153000.0;Renouvelable
+2024;93;Provence-Alpes-Côte d'Azur;Production solaire (GWh);3296.0;Solaire;3296000.0;Renouvelable
+2019;94;Corse;Production solaire (GWh);225.0;Solaire;225000.0;Renouvelable
+2023;94;Corse;Production solaire (GWh);282.0;Solaire;282000.0;Renouvelable
+2019;11;Île-de-France;Production solaire (GWh);100.0;Solaire;100000.0;Renouvelable
+2023;11;Île-de-France;Production solaire (GWh);324.0;Solaire;324000.0;Renouvelable
+2014;24;Centre-Val de Loire;Production solaire (GWh);198.0;Solaire;198000.0;Renouvelable
+2023;27;Bourgogne-Franche-Comté;Production solaire (GWh);875.0;Solaire;875000.0;Renouvelable
+2024;27;Bourgogne-Franche-Comté;Production solaire (GWh);1069.0;Solaire;1069000.0;Renouvelable
+2016;28;Normandie;Production solaire (GWh);126.0;Solaire;126000.0;Renouvelable
+2021;32;Hauts-de-France;Production solaire (GWh);280.0;Solaire;280000.0;Renouvelable
+2016;44;Grand Est;Production solaire (GWh);486.0;Solaire;486000.0;Renouvelable
+2023;44;Grand Est;Production solaire (GWh);1438.0;Solaire;1438000.0;Renouvelable
+2016;52;Pays de la Loire;Production solaire (GWh);441.0;Solaire;441000.0;Renouvelable
+2018;52;Pays de la Loire;Production solaire (GWh);546.0;Solaire;546000.0;Renouvelable
+2024;52;Pays de la Loire;Production solaire (GWh);1481.0;Solaire;1481000.0;Renouvelable
+2017;53;Bretagne;Production solaire (GWh);207.0;Solaire;207000.0;Renouvelable
+2016;75;Nouvelle-Aquitaine;Production solaire (GWh);2313.0;Solaire;2313000.0;Renouvelable
+2017;76;Occitanie;Production solaire (GWh);2076.0;Solaire;2076000.0;Renouvelable
+2019;76;Occitanie;Production solaire (GWh);2581.0;Solaire;2581000.0;Renouvelable
+2021;76;Occitanie;Production solaire (GWh);3020.0;Solaire;3020000.0;Renouvelable
+2022;76;Occitanie;Production solaire (GWh);3905.0;Solaire;3905000.0;Renouvelable
+2016;84;Auvergne-Rhône-Alpes;Production solaire (GWh);819.0;Solaire;819000.0;Renouvelable
+2021;94;Corse;Production solaire (GWh);256.0;Solaire;256000.0;Renouvelable
+2020;93;Provence-Alpes-Côte d'Azur;Production solaire (GWh);1994.0;Solaire;1994000.0;Renouvelable
+2016;94;Corse;Production solaire (GWh);157.0;Solaire;157000.0;Renouvelable
+2020;94;Corse;Production solaire (GWh);238.0;Solaire;238000.0;Renouvelable
+2024;11;Île-de-France;Production solaire (GWh);336.0;Solaire;336000.0;Renouvelable
+2020;24;Centre-Val de Loire;Production solaire (GWh);416.0;Solaire;416000.0;Renouvelable
+2021;24;Centre-Val de Loire;Production solaire (GWh);591.0;Solaire;591000.0;Renouvelable
+2023;24;Centre-Val de Loire;Production solaire (GWh);1098.0;Solaire;1098000.0;Renouvelable
+2017;27;Bourgogne-Franche-Comté;Production solaire (GWh);235.0;Solaire;235000.0;Renouvelable
+2019;27;Bourgogne-Franche-Comté;Production solaire (GWh);370.0;Solaire;370000.0;Renouvelable
+2020;28;Normandie;Production solaire (GWh);202.0;Solaire;202000.0;Renouvelable
+2023;28;Normandie;Production solaire (GWh);326.0;Solaire;326000.0;Renouvelable
+2018;32;Hauts-de-France;Production solaire (GWh);145.0;Solaire;145000.0;Renouvelable
+2020;32;Hauts-de-France;Production solaire (GWh);173.0;Solaire;173000.0;Renouvelable
+2022;32;Hauts-de-France;Production solaire (GWh);497.0;Solaire;497000.0;Renouvelable
+2014;44;Grand Est;Production solaire (GWh);461.0;Solaire;461000.0;Renouvelable
+2017;52;Pays de la Loire;Production solaire (GWh);480.0;Solaire;480000.0;Renouvelable
+2022;52;Pays de la Loire;Production solaire (GWh);1022.0;Solaire;1022000.0;Renouvelable
+2015;53;Bretagne;Production solaire (GWh);187.0;Solaire;187000.0;Renouvelable
+2019;53;Bretagne;Production solaire (GWh);251.0;Solaire;251000.0;Renouvelable
+2020;53;Bretagne;Production solaire (GWh);261.0;Solaire;261000.0;Renouvelable
+2024;53;Bretagne;Production solaire (GWh);670.0;Solaire;670000.0;Renouvelable
+2020;76;Occitanie;Production solaire (GWh);2699.0;Solaire;2699000.0;Renouvelable
+2018;84;Auvergne-Rhône-Alpes;Production solaire (GWh);1032.0;Solaire;1032000.0;Renouvelable
+2021;84;Auvergne-Rhône-Alpes;Production solaire (GWh);1473.0;Solaire;1473000.0;Renouvelable
+2023;84;Auvergne-Rhône-Alpes;Production solaire (GWh);2530.0;Solaire;2530000.0;Renouvelable
+2020;44;Grand Est;Production solaire (GWh);656.0;Solaire;656000.0;Renouvelable
+2022;44;Grand Est;Production solaire (GWh);1259.0;Solaire;1259000.0;Renouvelable
+2014;52;Pays de la Loire;Production solaire (GWh);368.0;Solaire;368000.0;Renouvelable
+2017;93;Provence-Alpes-Côte d'Azur;Production solaire (GWh);1527.0;Solaire;1527000.0;Renouvelable
+2021;93;Provence-Alpes-Côte d'Azur;Production solaire (GWh);2127.0;Solaire;2127000.0;Renouvelable
+2022;93;Provence-Alpes-Côte d'Azur;Production solaire (GWh);2655.0;Solaire;2655000.0;Renouvelable
+2017;94;Corse;Production solaire (GWh);182.0;Solaire;182000.0;Renouvelable
+2016;11;Île-de-France;Production solaire (GWh);70.0;Solaire;70000.0;Renouvelable
+2018;11;Île-de-France;Production solaire (GWh);83.0;Solaire;83000.0;Renouvelable
+2020;11;Île-de-France;Production solaire (GWh);126.0;Solaire;126000.0;Renouvelable
+2016;24;Centre-Val de Loire;Production solaire (GWh);245.0;Solaire;245000.0;Renouvelable
+2022;24;Centre-Val de Loire;Production solaire (GWh);941.0;Solaire;941000.0;Renouvelable
+2014;27;Bourgogne-Franche-Comté;Production solaire (GWh);193.0;Solaire;193000.0;Renouvelable
+2015;27;Bourgogne-Franche-Comté;Production solaire (GWh);220.0;Solaire;220000.0;Renouvelable
+2019;28;Normandie;Production solaire (GWh);180.0;Solaire;180000.0;Renouvelable
+2022;28;Normandie;Production solaire (GWh);288.0;Solaire;288000.0;Renouvelable
+2014;32;Hauts-de-France;Production solaire (GWh);117.0;Solaire;117000.0;Renouvelable
+2016;32;Hauts-de-France;Production solaire (GWh);148.0;Solaire;148000.0;Renouvelable
+2017;32;Hauts-de-France;Production solaire (GWh);130.0;Solaire;130000.0;Renouvelable
+2019;32;Hauts-de-France;Production solaire (GWh);166.0;Solaire;166000.0;Renouvelable
+2024;32;Hauts-de-France;Production solaire (GWh);626.0;Solaire;626000.0;Renouvelable
+2017;44;Grand Est;Production solaire (GWh);505.0;Solaire;505000.0;Renouvelable
+2019;44;Grand Est;Production solaire (GWh);713.0;Solaire;713000.0;Renouvelable
+2015;52;Pays de la Loire;Production solaire (GWh);422.0;Solaire;422000.0;Renouvelable
+2020;52;Pays de la Loire;Production solaire (GWh);666.0;Solaire;666000.0;Renouvelable
+2015;75;Nouvelle-Aquitaine;Production solaire (GWh);1817.0;Solaire;1817000.0;Renouvelable
+2019;75;Nouvelle-Aquitaine;Production solaire (GWh);3287.0;Solaire;3287000.0;Renouvelable
+2024;75;Nouvelle-Aquitaine;Production solaire (GWh);5806.0;Solaire;5806000.0;Renouvelable
+2014;76;Occitanie;Production solaire (GWh);1305.0;Solaire;1305000.0;Renouvelable
+2015;76;Occitanie;Production solaire (GWh);1604.0;Solaire;1604000.0;Renouvelable
+2016;76;Occitanie;Production solaire (GWh);1849.0;Solaire;1849000.0;Renouvelable
+2018;76;Occitanie;Production solaire (GWh);2217.0;Solaire;2217000.0;Renouvelable
+2022;84;Auvergne-Rhône-Alpes;Production solaire (GWh);2176.0;Solaire;2176000.0;Renouvelable
+2024;84;Auvergne-Rhône-Alpes;Production solaire (GWh);2894.0;Solaire;2894000.0;Renouvelable
+2014;93;Provence-Alpes-Côte d'Azur;Production solaire (GWh);1010.0;Solaire;1010000.0;Renouvelable
+2019;93;Provence-Alpes-Côte d'Azur;Production solaire (GWh);1920.0;Solaire;1920000.0;Renouvelable
+2014;94;Corse;Production solaire (GWh);124.0;Solaire;124000.0;Renouvelable
+2015;94;Corse;Production solaire (GWh);148.0;Solaire;148000.0;Renouvelable
+2024;94;Corse;Production solaire (GWh);288.0;Solaire;288000.0;Renouvelable
+2014;11;Île-de-France;Production bioénergies (GWh);1100.0;Bioénergies;1100000.0;Renouvelable
+2017;11;Île-de-France;Production bioénergies (GWh);1298.0;Bioénergies;1298000.0;Renouvelable
+2021;11;Île-de-France;Production bioénergies (GWh);1274.0;Bioénergies;1274000.0;Renouvelable
+2015;24;Centre-Val de Loire;Production bioénergies (GWh);423.0;Bioénergies;423000.0;Renouvelable
+2017;24;Centre-Val de Loire;Production bioénergies (GWh);500.0;Bioénergies;500000.0;Renouvelable
+2018;24;Centre-Val de Loire;Production bioénergies (GWh);521.0;Bioénergies;521000.0;Renouvelable
+2024;24;Centre-Val de Loire;Production bioénergies (GWh);516.0;Bioénergies;516000.0;Renouvelable
+2021;27;Bourgogne-Franche-Comté;Production bioénergies (GWh);392.0;Bioénergies;392000.0;Renouvelable
+2014;28;Normandie;Production bioénergies (GWh);422.0;Bioénergies;422000.0;Renouvelable
+2015;28;Normandie;Production bioénergies (GWh);434.0;Bioénergies;434000.0;Renouvelable
+2017;28;Normandie;Production bioénergies (GWh);453.0;Bioénergies;453000.0;Renouvelable
+2018;28;Normandie;Production bioénergies (GWh);448.0;Bioénergies;448000.0;Renouvelable
+2023;32;Hauts-de-France;Production bioénergies (GWh);975.0;Bioénergies;975000.0;Renouvelable
+2021;44;Grand Est;Production bioénergies (GWh);1217.0;Bioénergies;1217000.0;Renouvelable
+2021;52;Pays de la Loire;Production bioénergies (GWh);476.0;Bioénergies;476000.0;Renouvelable
+2016;53;Bretagne;Production bioénergies (GWh);311.0;Bioénergies;311000.0;Renouvelable
+2022;53;Bretagne;Production bioénergies (GWh);459.0;Bioénergies;459000.0;Renouvelable
+2023;53;Bretagne;Production bioénergies (GWh);454.0;Bioénergies;454000.0;Renouvelable
+2014;75;Nouvelle-Aquitaine;Production bioénergies (GWh);985.0;Bioénergies;985000.0;Renouvelable
+2017;75;Nouvelle-Aquitaine;Production bioénergies (GWh);1549.0;Bioénergies;1549000.0;Renouvelable
+2018;75;Nouvelle-Aquitaine;Production bioénergies (GWh);1506.0;Bioénergies;1506000.0;Renouvelable
+2020;75;Nouvelle-Aquitaine;Production bioénergies (GWh);1610.0;Bioénergies;1610000.0;Renouvelable
+2021;75;Nouvelle-Aquitaine;Production bioénergies (GWh);1540.0;Bioénergies;1540000.0;Renouvelable
+2022;75;Nouvelle-Aquitaine;Production bioénergies (GWh);1550.0;Bioénergies;1550000.0;Renouvelable
+2015;84;Auvergne-Rhône-Alpes;Production bioénergies (GWh);829.0;Bioénergies;829000.0;Renouvelable
+2017;84;Auvergne-Rhône-Alpes;Production bioénergies (GWh);876.0;Bioénergies;876000.0;Renouvelable
+2020;84;Auvergne-Rhône-Alpes;Production bioénergies (GWh);977.0;Bioénergies;977000.0;Renouvelable
+2015;93;Provence-Alpes-Côte d'Azur;Production bioénergies (GWh);642.0;Bioénergies;642000.0;Renouvelable
+2016;93;Provence-Alpes-Côte d'Azur;Production bioénergies (GWh);916.0;Bioénergies;916000.0;Renouvelable
+2018;94;Corse;Production bioénergies (GWh);9.0;Bioénergies;9000.0;Renouvelable
+2022;94;Corse;Production bioénergies (GWh);3.0;Bioénergies;3000.0;Renouvelable
+2015;11;Île-de-France;Production bioénergies (GWh);1034.0;Bioénergies;1034000.0;Renouvelable
+2022;11;Île-de-France;Production bioénergies (GWh);1232.0;Bioénergies;1232000.0;Renouvelable
+2019;24;Centre-Val de Loire;Production bioénergies (GWh);517.0;Bioénergies;517000.0;Renouvelable
+2016;27;Bourgogne-Franche-Comté;Production bioénergies (GWh);175.0;Bioénergies;175000.0;Renouvelable
+2018;27;Bourgogne-Franche-Comté;Production bioénergies (GWh);272.0;Bioénergies;272000.0;Renouvelable
+2020;27;Bourgogne-Franche-Comté;Production bioénergies (GWh);367.0;Bioénergies;367000.0;Renouvelable
+2022;27;Bourgogne-Franche-Comté;Production bioénergies (GWh);443.0;Bioénergies;443000.0;Renouvelable
+2021;28;Normandie;Production bioénergies (GWh);724.0;Bioénergies;724000.0;Renouvelable
+2024;28;Normandie;Production bioénergies (GWh);732.0;Bioénergies;732000.0;Renouvelable
+2015;32;Hauts-de-France;Production bioénergies (GWh);889.0;Bioénergies;889000.0;Renouvelable
+2015;44;Grand Est;Production bioénergies (GWh);636.0;Bioénergies;636000.0;Renouvelable
+2018;44;Grand Est;Production bioénergies (GWh);839.0;Bioénergies;839000.0;Renouvelable
+2024;44;Grand Est;Production bioénergies (GWh);1319.0;Bioénergies;1319000.0;Renouvelable
+2019;52;Pays de la Loire;Production bioénergies (GWh);438.0;Bioénergies;438000.0;Renouvelable
+2023;52;Pays de la Loire;Production bioénergies (GWh);494.0;Bioénergies;494000.0;Renouvelable
+2014;53;Bretagne;Production bioénergies (GWh);289.0;Bioénergies;289000.0;Renouvelable
+2021;53;Bretagne;Production bioénergies (GWh);447.0;Bioénergies;447000.0;Renouvelable
+2018;53;Bretagne;Production bioénergies (GWh);374.0;Bioénergies;374000.0;Renouvelable
+2023;75;Nouvelle-Aquitaine;Production bioénergies (GWh);1540.0;Bioénergies;1540000.0;Renouvelable
+2023;76;Occitanie;Production bioénergies (GWh);818.0;Bioénergies;818000.0;Renouvelable
+2024;76;Occitanie;Production bioénergies (GWh);920.0;Bioénergies;920000.0;Renouvelable
+2014;84;Auvergne-Rhône-Alpes;Production bioénergies (GWh);819.0;Bioénergies;819000.0;Renouvelable
+2019;84;Auvergne-Rhône-Alpes;Production bioénergies (GWh);999.0;Bioénergies;999000.0;Renouvelable
+2018;93;Provence-Alpes-Côte d'Azur;Production bioénergies (GWh);1066.0;Bioénergies;1066000.0;Renouvelable
+2023;93;Provence-Alpes-Côte d'Azur;Production bioénergies (GWh);986.0;Bioénergies;986000.0;Renouvelable
+2024;93;Provence-Alpes-Côte d'Azur;Production bioénergies (GWh);956.0;Bioénergies;956000.0;Renouvelable
+2019;94;Corse;Production bioénergies (GWh);7.0;Bioénergies;7000.0;Renouvelable
+2023;94;Corse;Production bioénergies (GWh);2.0;Bioénergies;2000.0;Renouvelable
+2019;11;Île-de-France;Production bioénergies (GWh);1121.0;Bioénergies;1121000.0;Renouvelable
+2023;11;Île-de-France;Production bioénergies (GWh);1146.0;Bioénergies;1146000.0;Renouvelable
+2014;24;Centre-Val de Loire;Production bioénergies (GWh);416.0;Bioénergies;416000.0;Renouvelable
+2023;27;Bourgogne-Franche-Comté;Production bioénergies (GWh);434.0;Bioénergies;434000.0;Renouvelable
+2024;27;Bourgogne-Franche-Comté;Production bioénergies (GWh);406.0;Bioénergies;406000.0;Renouvelable
+2016;28;Normandie;Production bioénergies (GWh);440.0;Bioénergies;440000.0;Renouvelable
+2021;32;Hauts-de-France;Production bioénergies (GWh);969.0;Bioénergies;969000.0;Renouvelable
+2016;44;Grand Est;Production bioénergies (GWh);787.0;Bioénergies;787000.0;Renouvelable
+2023;44;Grand Est;Production bioénergies (GWh);1280.0;Bioénergies;1280000.0;Renouvelable
+2016;52;Pays de la Loire;Production bioénergies (GWh);333.0;Bioénergies;333000.0;Renouvelable
+2018;52;Pays de la Loire;Production bioénergies (GWh);385.0;Bioénergies;385000.0;Renouvelable
+2024;52;Pays de la Loire;Production bioénergies (GWh);505.0;Bioénergies;505000.0;Renouvelable
+2017;53;Bretagne;Production bioénergies (GWh);358.0;Bioénergies;358000.0;Renouvelable
+2016;75;Nouvelle-Aquitaine;Production bioénergies (GWh);1362.0;Bioénergies;1362000.0;Renouvelable
+2017;76;Occitanie;Production bioénergies (GWh);758.0;Bioénergies;758000.0;Renouvelable
+2019;76;Occitanie;Production bioénergies (GWh);762.0;Bioénergies;762000.0;Renouvelable
+2021;76;Occitanie;Production bioénergies (GWh);687.0;Bioénergies;687000.0;Renouvelable
+2022;76;Occitanie;Production bioénergies (GWh);803.0;Bioénergies;803000.0;Renouvelable
+2016;84;Auvergne-Rhône-Alpes;Production bioénergies (GWh);923.0;Bioénergies;923000.0;Renouvelable
+2021;94;Corse;Production bioénergies (GWh);4.0;Bioénergies;4000.0;Renouvelable
+2020;93;Provence-Alpes-Côte d'Azur;Production bioénergies (GWh);773.0;Bioénergies;773000.0;Renouvelable
+2016;94;Corse;Production bioénergies (GWh);9.0;Bioénergies;9000.0;Renouvelable
+2020;94;Corse;Production bioénergies (GWh);6.0;Bioénergies;6000.0;Renouvelable
+2024;11;Île-de-France;Production bioénergies (GWh);1202.0;Bioénergies;1202000.0;Renouvelable
+2020;24;Centre-Val de Loire;Production bioénergies (GWh);522.0;Bioénergies;522000.0;Renouvelable
+2021;24;Centre-Val de Loire;Production bioénergies (GWh);525.0;Bioénergies;525000.0;Renouvelable
+2023;24;Centre-Val de Loire;Production bioénergies (GWh);466.0;Bioénergies;466000.0;Renouvelable
+2017;27;Bourgogne-Franche-Comté;Production bioénergies (GWh);192.0;Bioénergies;192000.0;Renouvelable
+2019;27;Bourgogne-Franche-Comté;Production bioénergies (GWh);285.0;Bioénergies;285000.0;Renouvelable
+2020;28;Normandie;Production bioénergies (GWh);512.0;Bioénergies;512000.0;Renouvelable
+2023;28;Normandie;Production bioénergies (GWh);736.0;Bioénergies;736000.0;Renouvelable
+2018;32;Hauts-de-France;Production bioénergies (GWh);1043.0;Bioénergies;1043000.0;Renouvelable
+2020;32;Hauts-de-France;Production bioénergies (GWh);1055.0;Bioénergies;1055000.0;Renouvelable
+2022;32;Hauts-de-France;Production bioénergies (GWh);932.0;Bioénergies;932000.0;Renouvelable
+2014;44;Grand Est;Production bioénergies (GWh);526.0;Bioénergies;526000.0;Renouvelable
+2017;52;Pays de la Loire;Production bioénergies (GWh);382.0;Bioénergies;382000.0;Renouvelable
+2022;52;Pays de la Loire;Production bioénergies (GWh);498.0;Bioénergies;498000.0;Renouvelable
+2015;53;Bretagne;Production bioénergies (GWh);311.0;Bioénergies;311000.0;Renouvelable
+2019;53;Bretagne;Production bioénergies (GWh);401.0;Bioénergies;401000.0;Renouvelable
+2020;53;Bretagne;Production bioénergies (GWh);435.0;Bioénergies;435000.0;Renouvelable
+2024;53;Bretagne;Production bioénergies (GWh);458.0;Bioénergies;458000.0;Renouvelable
+2020;76;Occitanie;Production bioénergies (GWh);706.0;Bioénergies;706000.0;Renouvelable
+2018;84;Auvergne-Rhône-Alpes;Production bioénergies (GWh);1000.0;Bioénergies;1000000.0;Renouvelable
+2021;84;Auvergne-Rhône-Alpes;Production bioénergies (GWh);980.0;Bioénergies;980000.0;Renouvelable
+2023;84;Auvergne-Rhône-Alpes;Production bioénergies (GWh);980.0;Bioénergies;980000.0;Renouvelable
+2020;44;Grand Est;Production bioénergies (GWh);1046.0;Bioénergies;1046000.0;Renouvelable
+2022;44;Grand Est;Production bioénergies (GWh);1297.0;Bioénergies;1297000.0;Renouvelable
+2014;52;Pays de la Loire;Production bioénergies (GWh);355.0;Bioénergies;355000.0;Renouvelable
+2017;93;Provence-Alpes-Côte d'Azur;Production bioénergies (GWh);1137.0;Bioénergies;1137000.0;Renouvelable
+2021;93;Provence-Alpes-Côte d'Azur;Production bioénergies (GWh);728.0;Bioénergies;728000.0;Renouvelable
+2022;93;Provence-Alpes-Côte d'Azur;Production bioénergies (GWh);1076.0;Bioénergies;1076000.0;Renouvelable
+2017;94;Corse;Production bioénergies (GWh);8.0;Bioénergies;8000.0;Renouvelable
+2016;11;Île-de-France;Production bioénergies (GWh);1236.0;Bioénergies;1236000.0;Renouvelable
+2018;11;Île-de-France;Production bioénergies (GWh);1296.0;Bioénergies;1296000.0;Renouvelable
+2020;11;Île-de-France;Production bioénergies (GWh);1134.0;Bioénergies;1134000.0;Renouvelable
+2016;24;Centre-Val de Loire;Production bioénergies (GWh);432.0;Bioénergies;432000.0;Renouvelable
+2022;24;Centre-Val de Loire;Production bioénergies (GWh);507.0;Bioénergies;507000.0;Renouvelable
+2014;27;Bourgogne-Franche-Comté;Production bioénergies (GWh);165.0;Bioénergies;165000.0;Renouvelable
+2015;27;Bourgogne-Franche-Comté;Production bioénergies (GWh);177.0;Bioénergies;177000.0;Renouvelable
+2019;28;Normandie;Production bioénergies (GWh);457.0;Bioénergies;457000.0;Renouvelable
+2022;28;Normandie;Production bioénergies (GWh);739.0;Bioénergies;739000.0;Renouvelable
+2014;32;Hauts-de-France;Production bioénergies (GWh);771.0;Bioénergies;771000.0;Renouvelable
+2016;32;Hauts-de-France;Production bioénergies (GWh);932.0;Bioénergies;932000.0;Renouvelable
+2017;32;Hauts-de-France;Production bioénergies (GWh);989.0;Bioénergies;989000.0;Renouvelable
+2019;32;Hauts-de-France;Production bioénergies (GWh);1071.0;Bioénergies;1071000.0;Renouvelable
+2024;32;Hauts-de-France;Production bioénergies (GWh);941.0;Bioénergies;941000.0;Renouvelable
+2017;44;Grand Est;Production bioénergies (GWh);825.0;Bioénergies;825000.0;Renouvelable
+2019;44;Grand Est;Production bioénergies (GWh);999.0;Bioénergies;999000.0;Renouvelable
+2015;52;Pays de la Loire;Production bioénergies (GWh);342.0;Bioénergies;342000.0;Renouvelable
+2020;52;Pays de la Loire;Production bioénergies (GWh);470.0;Bioénergies;470000.0;Renouvelable
+2015;75;Nouvelle-Aquitaine;Production bioénergies (GWh);1292.0;Bioénergies;1292000.0;Renouvelable
+2019;75;Nouvelle-Aquitaine;Production bioénergies (GWh);1574.0;Bioénergies;1574000.0;Renouvelable
+2024;75;Nouvelle-Aquitaine;Production bioénergies (GWh);1557.0;Bioénergies;1557000.0;Renouvelable
+2014;76;Occitanie;Production bioénergies (GWh);673.0;Bioénergies;673000.0;Renouvelable
+2015;76;Occitanie;Production bioénergies (GWh);706.0;Bioénergies;706000.0;Renouvelable
+2016;76;Occitanie;Production bioénergies (GWh);762.0;Bioénergies;762000.0;Renouvelable
+2018;76;Occitanie;Production bioénergies (GWh);720.0;Bioénergies;720000.0;Renouvelable
+2022;84;Auvergne-Rhône-Alpes;Production bioénergies (GWh);1013.0;Bioénergies;1013000.0;Renouvelable
+2024;84;Auvergne-Rhône-Alpes;Production bioénergies (GWh);1004.0;Bioénergies;1004000.0;Renouvelable
+2014;93;Provence-Alpes-Côte d'Azur;Production bioénergies (GWh);563.0;Bioénergies;563000.0;Renouvelable
+2019;93;Provence-Alpes-Côte d'Azur;Production bioénergies (GWh);853.0;Bioénergies;853000.0;Renouvelable
+2014;94;Corse;Production bioénergies (GWh);11.0;Bioénergies;11000.0;Renouvelable
+2015;94;Corse;Production bioénergies (GWh);10.0;Bioénergies;10000.0;Renouvelable
+2024;94;Corse;Production bioénergies (GWh);2.0;Bioénergies;2000.0;Renouvelable
