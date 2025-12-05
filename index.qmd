@@ -5,3 +5,13 @@ jupyter: python3
 
 # Introduction
 Ce projet analyse la transition énergétique française.
+
+...
+
+### Déploiement et Accès
+
+Le site est déployé automatiquement via GitHub Pages.
+
+** Lien vers le Site Déployé :** [https://benenfaneassoumani-tech.github.io/EnergiFrance/](https://benenfaneassoumani-tech.github.io/EnergiFrance/)
+
+...
