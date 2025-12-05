@@ -1,5 +1,96 @@
 [
   {
+    "objectID": "tests.html",
+    "href": "tests.html",
+    "title": "Tests Unitaires et Évaluation des Performances",
+    "section": "",
+    "text": "… (Collez ici tout le code Python/Markdown que j’ai donné pour les tests unitaires) …"
+  },
+  {
+    "objectID": "tests.html#tests-unitaires-critère-2.3.2.8",
+    "href": "tests.html#tests-unitaires-critère-2.3.2.8",
+    "title": "Tests Unitaires et Évaluation des Performances",
+    "section": "",
+    "text": "… (Collez ici tout le code Python/Markdown que j’ai donné pour les tests unitaires) …"
+  },
+  {
+    "objectID": "tests.html#évaluation-temps-et-mémoire-critère-2.3.2.6",
+    "href": "tests.html#évaluation-temps-et-mémoire-critère-2.3.2.6",
+    "title": "Tests Unitaires et Évaluation des Performances",
+    "section": "2. Évaluation Temps et Mémoire (Critère 2.3.2.6)",
+    "text": "2. Évaluation Temps et Mémoire (Critère 2.3.2.6)\n… (Collez ici tout le code Python/Markdown pour le profilage) …"
+  },
+  {
+    "objectID": "qmd/production.html",
+    "href": "qmd/production.html",
+    "title": "Analyse de la Production",
+    "section": "",
+    "text": "Cette page se concentre sur la production d’énergie, en distinguant les différentes filières. Les données proviennent des fichiers prod_annuelle_filiere_clean.csv and prod_mensuelle_clean.csv.\n\n\nLe graphique ci-dessous montre la répartition de la production d’énergie par filière pour une région et une année données.\n\n\n\n\n\nCe graphique illustre l’évolution de la production d’une filière spécifique au fil du temps.\n\n\n\n\n\nCe graphique montre la production mensuelle pour une filière, une région et une année données."
+  },
+  {
+    "objectID": "qmd/production.html#analyse-de-la-production-dénergie-par-filière",
+    "href": "qmd/production.html#analyse-de-la-production-dénergie-par-filière",
+    "title": "Analyse de la Production",
+    "section": "",
+    "text": "Cette page se concentre sur la production d’énergie, en distinguant les différentes filières. Les données proviennent des fichiers prod_annuelle_filiere_clean.csv and prod_mensuelle_clean.csv.\n\n\nLe graphique ci-dessous montre la répartition de la production d’énergie par filière pour une région et une année données.\n\n\n\n\n\nCe graphique illustre l’évolution de la production d’une filière spécifique au fil du temps.\n\n\n\n\n\nCe graphique montre la production mensuelle pour une filière, une région et une année données."
+  },
+  {
+    "objectID": "qmd/index.html",
+    "href": "qmd/index.html",
+    "title": "EnergiFrance",
+    "section": "",
+    "text": "Bienvenue dans l’Analyse Énergétique Régionale\nCe projet a pour objectif d’analyser et de visualiser l’évolution de la production d’énergie (nucléaire, thermique, renouvelable) au niveau des régions françaises, en utilisant des données brutes publiques. Le site web sert de support de narration et d’interface interactive pour explorer les tendances identifiées."
+  },
+  {
+    "objectID": "qmd/bilan.html",
+    "href": "qmd/bilan.html",
+    "title": "Bilan Énergétique",
+    "section": "",
+    "text": "Cette page présente une analyse du bilan énergétique par région en France. Les données proviennent du fichier bilan_energetique.csv.\n\n\nLe graphique ci-dessous compare la consommation totale et la production totale d’énergie (en MWh) pour chaque région.\n\n\n\n\n\nLe taux de couverture est le rapport entre la production et la consommation d’énergie. Une valeur supérieure à 100% indique que la région produit plus d’énergie qu’elle n’en consomme."
+  },
+  {
+    "objectID": "qmd/bilan.html#analyse-du-bilan-énergétique-par-région",
+    "href": "qmd/bilan.html#analyse-du-bilan-énergétique-par-région",
+    "title": "Bilan Énergétique",
+    "section": "",
+    "text": "Cette page présente une analyse du bilan énergétique par région en France. Les données proviennent du fichier bilan_energetique.csv.\n\n\nLe graphique ci-dessous compare la consommation totale et la production totale d’énergie (en MWh) pour chaque région.\n\n\n\n\n\nLe taux de couverture est le rapport entre la production et la consommation d’énergie. Une valeur supérieure à 100% indique que la région produit plus d’énergie qu’elle n’en consomme."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "EnergiFrance",
+    "section": "",
+    "text": "Introduction\nCe projet analyse la transition énergétique française.\n…\n\nDéploiement et Accès\nLe site est déployé automatiquement via GitHub Pages.\n** Lien vers le Site Déployé :** https://benenfaneassoumani-tech.github.io/EnergiFrance/\n…"
+  },
+  {
+    "objectID": "qmd/consommation.html",
+    "href": "qmd/consommation.html",
+    "title": "Analyse de la Consommation",
+    "section": "",
+    "text": "Cette page analyse la consommation d’énergie par département, en la décomposant par secteur. Les données sont issues du fichier conso_clean_dept.csv.\n\n\nLe graphique suivant montre la répartition de la consommation d’énergie par secteur (Agriculture, Industrie, Résidentiel, Tertiaire, Autre) pour un département donné (par exemple, l’Aude en 2014).\n\n\n\n\n\nCe graphique illustre la part de chaque secteur dans la consommation totale pour chaque département."
+  },
+  {
+    "objectID": "qmd/consommation.html#analyse-de-la-consommation-dénergie-par-département",
+    "href": "qmd/consommation.html#analyse-de-la-consommation-dénergie-par-département",
+    "title": "Analyse de la Consommation",
+    "section": "",
+    "text": "Cette page analyse la consommation d’énergie par département, en la décomposant par secteur. Les données sont issues du fichier conso_clean_dept.csv.\n\n\nLe graphique suivant montre la répartition de la consommation d’énergie par secteur (Agriculture, Industrie, Résidentiel, Tertiaire, Autre) pour un département donné (par exemple, l’Aude en 2014).\n\n\n\n\n\nCe graphique illustre la part de chaque secteur dans la consommation totale pour chaque département."
+  },
+  {
+    "objectID": "qmd/map_regionale.html",
+    "href": "qmd/map_regionale.html",
+    "title": "Visualisation Interactive de la Production Énergétique",
+    "section": "",
+    "text": "Cette page présente une carte interactive des régions françaises avec des données de production énergétique.\n\n&lt;button class=\"energy-btn\" data-energy=\"Total\"&gt;Toutes&lt;/button&gt;\n&lt;button class=\"energy-btn\" data-energy=\"Nucléaire\"&gt;Nucléaire&lt;/button&gt;\n&lt;button class=\"energy-btn\" data-energy=\"Thermique\"&gt;Thermique&lt;/button&gt;\n&lt;button class=\"energy-btn\" data-energy=\"Hydraulique\"&gt;Hydraulique&lt;/button&gt;\n&lt;button class=\"energy-btn\" data-energy=\"Eolien\"&gt;Éolien&lt;/button&gt;\n&lt;button class=\"energy-btn\" data-energy=\"Solaire\"&gt;Solaire&lt;/button&gt;\n&lt;button class=\"energy-btn\" data-energy=\"Bio-énergies\"&gt;Bioénergies&lt;/button&gt;"
+  },
+  {
+    "objectID": "qmd/map_regionale.html#carte-des-régions-françaises",
+    "href": "qmd/map_regionale.html#carte-des-régions-françaises",
+    "title": "Visualisation Interactive de la Production Énergétique",
+    "section": "",
+    "text": "Cette page présente une carte interactive des régions françaises avec des données de production énergétique.\n\n&lt;button class=\"energy-btn\" data-energy=\"Total\"&gt;Toutes&lt;/button&gt;\n&lt;button class=\"energy-btn\" data-energy=\"Nucléaire\"&gt;Nucléaire&lt;/button&gt;\n&lt;button class=\"energy-btn\" data-energy=\"Thermique\"&gt;Thermique&lt;/button&gt;\n&lt;button class=\"energy-btn\" data-energy=\"Hydraulique\"&gt;Hydraulique&lt;/button&gt;\n&lt;button class=\"energy-btn\" data-energy=\"Eolien\"&gt;Éolien&lt;/button&gt;\n&lt;button class=\"energy-btn\" data-energy=\"Solaire\"&gt;Solaire&lt;/button&gt;\n&lt;button class=\"energy-btn\" data-energy=\"Bio-énergies\"&gt;Bioénergies&lt;/button&gt;"
+  },
+  {
     "objectID": "tests/tests.html",
     "href": "tests/tests.html",
     "title": "Tests Unitaires et Évaluation des Performances",
@@ -19,68 +110,5 @@
     "title": "Tests Unitaires et Évaluation des Performances",
     "section": "2. Évaluation Temps et Mémoire (Critère 2.3.2.6)",
     "text": "2. Évaluation Temps et Mémoire (Critère 2.3.2.6)\n… (Collez ici tout le code Python/Markdown pour le profilage) …"
-  },
-  {
-    "objectID": "qmd/map_regionale.html",
-    "href": "qmd/map_regionale.html",
-    "title": "Visualisation Interactive de la Production Énergétique",
-    "section": "",
-    "text": "Cette page présente une carte interactive des régions françaises avec des données de production énergétique.\n\n&lt;button class=\"energy-btn\" data-energy=\"Total\"&gt;Toutes&lt;/button&gt;\n&lt;button class=\"energy-btn\" data-energy=\"Nucléaire\"&gt;Nucléaire&lt;/button&gt;\n&lt;button class=\"energy-btn\" data-energy=\"Thermique\"&gt;Thermique&lt;/button&gt;\n&lt;button class=\"energy-btn\" data-energy=\"Hydraulique\"&gt;Hydraulique&lt;/button&gt;\n&lt;button class=\"energy-btn\" data-energy=\"Eolien\"&gt;Éolien&lt;/button&gt;\n&lt;button class=\"energy-btn\" data-energy=\"Solaire\"&gt;Solaire&lt;/button&gt;\n&lt;button class=\"energy-btn\" data-energy=\"Bio-énergies\"&gt;Bioénergies&lt;/button&gt;"
-  },
-  {
-    "objectID": "qmd/map_regionale.html#carte-des-régions-françaises",
-    "href": "qmd/map_regionale.html#carte-des-régions-françaises",
-    "title": "Visualisation Interactive de la Production Énergétique",
-    "section": "",
-    "text": "Cette page présente une carte interactive des régions françaises avec des données de production énergétique.\n\n&lt;button class=\"energy-btn\" data-energy=\"Total\"&gt;Toutes&lt;/button&gt;\n&lt;button class=\"energy-btn\" data-energy=\"Nucléaire\"&gt;Nucléaire&lt;/button&gt;\n&lt;button class=\"energy-btn\" data-energy=\"Thermique\"&gt;Thermique&lt;/button&gt;\n&lt;button class=\"energy-btn\" data-energy=\"Hydraulique\"&gt;Hydraulique&lt;/button&gt;\n&lt;button class=\"energy-btn\" data-energy=\"Eolien\"&gt;Éolien&lt;/button&gt;\n&lt;button class=\"energy-btn\" data-energy=\"Solaire\"&gt;Solaire&lt;/button&gt;\n&lt;button class=\"energy-btn\" data-energy=\"Bio-énergies\"&gt;Bioénergies&lt;/button&gt;"
-  },
-  {
-    "objectID": "qmd/consommation.html",
-    "href": "qmd/consommation.html",
-    "title": "Analyse de la Consommation",
-    "section": "",
-    "text": "Cette page analyse la consommation d’énergie par département, en la décomposant par secteur. Les données sont issues du fichier conso_clean_dept.csv.\n\n\nLe graphique suivant montre la répartition de la consommation d’énergie par secteur (Agriculture, Industrie, Résidentiel, Tertiaire, Autre) pour un département donné (par exemple, l’Aude en 2014).\n\n\n\n\n\nCe graphique illustre la part de chaque secteur dans la consommation totale pour chaque département."
-  },
-  {
-    "objectID": "qmd/consommation.html#analyse-de-la-consommation-dénergie-par-département",
-    "href": "qmd/consommation.html#analyse-de-la-consommation-dénergie-par-département",
-    "title": "Analyse de la Consommation",
-    "section": "",
-    "text": "Cette page analyse la consommation d’énergie par département, en la décomposant par secteur. Les données sont issues du fichier conso_clean_dept.csv.\n\n\nLe graphique suivant montre la répartition de la consommation d’énergie par secteur (Agriculture, Industrie, Résidentiel, Tertiaire, Autre) pour un département donné (par exemple, l’Aude en 2014).\n\n\n\n\n\nCe graphique illustre la part de chaque secteur dans la consommation totale pour chaque département."
-  },
-  {
-    "objectID": "qmd/bilan.html",
-    "href": "qmd/bilan.html",
-    "title": "Bilan Énergétique",
-    "section": "",
-    "text": "Cette page présente une analyse du bilan énergétique par région en France. Les données proviennent du fichier bilan_energetique.csv.\n\n\nLe graphique ci-dessous compare la consommation totale et la production totale d’énergie (en MWh) pour chaque région.\n\n\n\n\n\nLe taux de couverture est le rapport entre la production et la consommation d’énergie. Une valeur supérieure à 100% indique que la région produit plus d’énergie qu’elle n’en consomme."
-  },
-  {
-    "objectID": "qmd/bilan.html#analyse-du-bilan-énergétique-par-région",
-    "href": "qmd/bilan.html#analyse-du-bilan-énergétique-par-région",
-    "title": "Bilan Énergétique",
-    "section": "",
-    "text": "Cette page présente une analyse du bilan énergétique par région en France. Les données proviennent du fichier bilan_energetique.csv.\n\n\nLe graphique ci-dessous compare la consommation totale et la production totale d’énergie (en MWh) pour chaque région.\n\n\n\n\n\nLe taux de couverture est le rapport entre la production et la consommation d’énergie. Une valeur supérieure à 100% indique que la région produit plus d’énergie qu’elle n’en consomme."
-  },
-  {
-    "objectID": "qmd/index.html",
-    "href": "qmd/index.html",
-    "title": "EnergiFrance",
-    "section": "",
-    "text": "Bienvenue dans l’Analyse Énergétique Régionale\nCe projet a pour objectif d’analyser et de visualiser l’évolution de la production d’énergie (nucléaire, thermique, renouvelable) au niveau des régions françaises, en utilisant des données brutes publiques. Le site web sert de support de narration et d’interface interactive pour explorer les tendances identifiées."
-  },
-  {
-    "objectID": "qmd/production.html",
-    "href": "qmd/production.html",
-    "title": "Analyse de la Production",
-    "section": "",
-    "text": "Cette page se concentre sur la production d’énergie, en distinguant les différentes filières. Les données proviennent des fichiers prod_annuelle_filiere_clean.csv and prod_mensuelle_clean.csv.\n\n\nLe graphique ci-dessous montre la répartition de la production d’énergie par filière pour une région et une année données.\n\n\n\n\n\nCe graphique illustre l’évolution de la production d’une filière spécifique au fil du temps.\n\n\n\n\n\nCe graphique montre la production mensuelle pour une filière, une région et une année données."
-  },
-  {
-    "objectID": "qmd/production.html#analyse-de-la-production-dénergie-par-filière",
-    "href": "qmd/production.html#analyse-de-la-production-dénergie-par-filière",
-    "title": "Analyse de la Production",
-    "section": "",
-    "text": "Cette page se concentre sur la production d’énergie, en distinguant les différentes filières. Les données proviennent des fichiers prod_annuelle_filiere_clean.csv and prod_mensuelle_clean.csv.\n\n\nLe graphique ci-dessous montre la répartition de la production d’énergie par filière pour une région et une année données.\n\n\n\n\n\nCe graphique illustre l’évolution de la production d’une filière spécifique au fil du temps.\n\n\n\n\n\nCe graphique montre la production mensuelle pour une filière, une région et une année données."
   }
 ]

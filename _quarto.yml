@@ -1,25 +1,21 @@
-<<<<<<< HEAD
-# _quarto.yml
-
+---
+# Ce fichier a été nettoyé d'un conflit de fusion Git.
 project:
   type: website
-  output-dir: docs  # Indique à Quarto de générer la sortie dans le dossier 'docs/' pour GitHub Pages
-  
+  output-dir: docs  # Le dossier de sortie pour GitHub Pages
+
 website:
-  title: "EnergiFrance : Analyse Énergétique" # Le titre affiché dans la barre de navigation
+  title: "EnergiFrance : Analyse Énergétique"
   
   # Configuration de la barre de navigation
   navbar:
+    background: primary
     left:
-      # Page d'accueil (index.qmd)
+      # L'URL suppose que vos fichiers Quarto sont dans un sous-dossier 'qmd/'
       - href: qmd/index.qmd
         text: Accueil
-      
-      # Page de visualisation interactive (map_regionale.qmd)
       - href: qmd/map_regionale.qmd 
         text: Carte Régionale
-      
-      # Analyses
       - text: "Analyses"
         menu:
           - href: qmd/bilan.qmd
@@ -28,41 +24,20 @@ website:
             text: Consommation
           - href: qmd/production.qmd
             text: Production
-
-      # Lien vers la documentation API (Nécessite la compilation Sphinx)
-      # Le chemin suppose que votre documentation est générée dans docs/api/index.html
       - href: api/index.html
         text: Documentation API
-
-    # Lien vers le dépôt GitHub (à droite)
     right:
       - icon: github
-        href: https://github.com/benenfaneassoumani-tech/EnergiFrance # N'oubliez pas de mettre votre URL exacte ici !
+        href: https://github.com/benenfaneassoumani-tech/EnergiFrance
         aria-label: GitHub
 
-  # Pied de page (Footer)
   page-footer:
-    left: "Projet final - Licence MIT"
+    left: "Projet  - M1 SSD"
     right: "Déployé via Quarto & GitHub Pages"
 
-# Cette configuration permet la coloration syntaxique dans les blocs de code
-# et assure le rendu des blocs Quarto.
-=======
-roject:
-  type: website
-  output-dir: ../docs   # output to a docs folder
-
-website:
-  title: "EnergiFrance"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      
-
+# Intégration de la configuration de format (prise de l'autre version)
 format:
   html:
-    theme: cosmo
-    toc: true
+    theme: cosmo # Thème visuel
+    toc: true    # Table des matières
     code-fold: true
->>>>>>> 367f09625db81a0d09830668c8ce630de93b8b31

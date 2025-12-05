@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dec27a635df3619fee3abd01ce5a42f4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-029b10fc0dc652dab2ec1ac156c1a037.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -90,17 +90,32 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="./qmd/index.html"> 
 <span class="menu-text">Accueil</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./map_regionale.html"> 
+    <a class="nav-link" href="./qmd/map_regionale.html"> 
 <span class="menu-text">Carte Régionale</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./tests.html" aria-current="page"> 
-<span class="menu-text">Tests &amp; Perf.</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-analyses" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Analyses</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-analyses">    
+        <li>
+    <a class="dropdown-item" href="./qmd/bilan.html">
+ <span class="dropdown-text">Bilan Énergétique</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./qmd/consommation.html">
+ <span class="dropdown-text">Consommation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./qmd/production.html">
+ <span class="dropdown-text">Production</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./api/index.html"> 
 <span class="menu-text">Documentation API</span></a>
@@ -123,7 +138,16 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tests-unitaires-critère-2.3.2.8" id="toc-tests-unitaires-critère-2.3.2.8" class="nav-link active" data-scroll-target="#tests-unitaires-critère-2.3.2.8">1. Tests Unitaires (Critère 2.3.2.8)</a></li>
+  <li><a href="#évaluation-temps-et-mémoire-critère-2.3.2.6" id="toc-évaluation-temps-et-mémoire-critère-2.3.2.6" class="nav-link" data-scroll-target="#évaluation-temps-et-mémoire-critère-2.3.2.6">2. Évaluation Temps et Mémoire (Critère 2.3.2.6)</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -562,7 +586,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Projet final - Licence MIT</p>
+<p>Projet - M1 SSD</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

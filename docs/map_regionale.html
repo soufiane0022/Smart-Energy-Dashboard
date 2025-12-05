@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Visualisation Interactive de la Production Énergétique – EnergiFrance : Analyse Énergétique</title>
+<title>map_regionale – EnergiFrance : Analyse Énergétique</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,7 +40,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dec27a635df3619fee3abd01ce5a42f4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-029b10fc0dc652dab2ec1ac156c1a037.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -90,17 +90,32 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="./qmd/index.html"> 
 <span class="menu-text">Accueil</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./map_regionale.html" aria-current="page"> 
+    <a class="nav-link" href="./qmd/map_regionale.html"> 
 <span class="menu-text">Carte Régionale</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./tests.html"> 
-<span class="menu-text">Tests &amp; Perf.</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-analyses" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Analyses</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-analyses">    
+        <li>
+    <a class="dropdown-item" href="./qmd/bilan.html">
+ <span class="dropdown-text">Bilan Énergétique</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./qmd/consommation.html">
+ <span class="dropdown-text">Consommation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./qmd/production.html">
+ <span class="dropdown-text">Production</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./api/index.html"> 
 <span class="menu-text">Documentation API</span></a>
@@ -123,126 +138,17 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Visualisation Interactive de la Production Énergétique</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
 
-
-<section id="carte-de-la-région-centre-val-de-loire" class="level2">
-<h2 class="anchored" data-anchor-id="carte-de-la-région-centre-val-de-loire">Carte de la Région Centre-Val de Loire</h2>
-<p>Cette page présente une carte interactive générée à partir des données de production. Le tracé de la région (GeoJSON) est extrait dynamiquement via Python et affiché avec la librairie JavaScript <strong>Leaflet</strong>.</p>
-<div id="map" style="height: 600px; width: 100%; border: 1px solid #ccc; border-radius: 8px;">
-
-</div>
-<p>#| label: extract-data #| output: asis #| echo: false</p>
-<p>import sys import json from pathlib import Path import os</p>
-</section>
-<section id="ajout-critique-ajoute-le-dossier-src-au-chemin-de-recherche-python-permet-limport" class="level1">
-<h1>AJOUT CRITIQUE: Ajoute le dossier ‘src’ au chemin de recherche Python (permet l’import)</h1>
-</section>
-<section id="la-méthode-path.cwd-garantit-que-le-chemin-est-correct-que-vous-soyez-en-mode-render-ou-preview." class="level1">
-<h1>La méthode Path.cwd() garantit que le chemin est correct, que vous soyez en mode ‘render’ ou ‘preview’.</h1>
-<p>sys.path.append(str(Path.cwd() / ‘src’))</p>
-</section>
-<section id="import-de-la-fonction-modulaire" class="level1">
-<h1>Import de la fonction modulaire</h1>
-<p>from energi_analysis.processor import extract_geojson_data</p>
-</section>
-<section id="appel-de-la-fonction-pour-obtenir-les-données" class="level1">
-<h1>Appel de la fonction pour obtenir les données</h1>
-<p>data_result = extract_geojson_data()</p>
-print(“
-<script>")
-
-if "error" in data_result:
-    # Si la fonction a renvoyé une erreur (FileNotFound, etc.)
-    error_msg = data_result["error"]
-    print(f"console.error(\"Erreur Python: {error_msg}\");")
-    print(f"document.getElementById('map').innerHTML = '<p style=\"color:red;\">Erreur: {error_msg}</p>';")
-    print("const rawGeoJson = null;") # Bloque le script JS
-else:
-    # Si la fonction a réussi, injecter les variables JS
-    print(f"const regionName = {json.dumps(data_result['regionName'])};")
-    print(f"const regionCenter = {data_result['regionCenter']};")
-    print(f"const nuclearProd = {data_result['nuclearProd']};")
-    print(f"const rawGeoJson = {json.dumps(data_result['rawGeoJson'])};")
-
-print("</script>
-<p>“)</p>
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-    // Les variables (regionName, rawGeoJson, etc.) sont définies par le bloc Python ci-dessus.
-
-    // 1. Vérification des données
-    if (typeof rawGeoJson === 'undefined' || rawGeoJson === null) {
-        // Le message d'erreur est déjà injecté par Python. On sort.
-        return;
-    }
-
-    // 2. Initialisation de la carte Leaflet
-    const map = L.map('map').setView(regionCenter, 8);
-
-    // 3. Ajout du fond de carte (OpenStreetMap)
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="[https://www.openstreetmap.org/copyright](https://www.openstreetmap.org/copyright)">OpenStreetMap</a> contributors',
-        maxZoom: 18
-    }).addTo(map);
-
-    try {
-        // 4. Parsing du GeoJSON et création de la couche géographique
-        const geoJsonData = JSON.parse(rawGeoJson);
-
-        const geoLayer = L.geoJSON(geoJsonData, {
-            style: {
-                color: '#2E86C1',      
-                weight: 3,             
-                opacity: 1,
-                fillColor: '#AED6F1',  
-                fillOpacity: 0.5
-            },
-            onEachFeature: function(feature, layer) {
-                // Ajout du Popup interactif
-                layer.bindPopup(
-                    `<div style='text-align:center;'>
-                        <h3>${regionName}</h3>
-                        <p><b>Production Nucléaire :</b> ${nuclearProd} GWh</p>
-                    </div>`
-                );
-            }
-        }).addTo(map);
-
-        // 5. Ajustement automatique du zoom
-        map.fitBounds(geoLayer.getBounds());
-
-    } catch (e) {
-        console.error("Erreur lors du parsing du GeoJSON : ", e);
-        document.getElementById('map').innerHTML = "<p style='color:red;'>Erreur lors de l'affichage de la carte (JSON invalide).</p>";
-    }
-});
-</script>
-<link rel="stylesheet" href="[https://unpkg.com/leaflet@1.9.4/dist/leaflet.css](https://unpkg.com/leaflet@1.9.4/dist/leaflet.css)">
-<script src="[https://unpkg.com/leaflet@1.9.4/dist/leaflet.js](https://unpkg.com/leaflet@1.9.4/dist/leaflet.js)"></script>
-
-
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -649,7 +555,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Projet final - Licence MIT</p>
+<p>Projet - M1 SSD</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
