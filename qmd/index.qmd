@@ -1,0 +1,8 @@
+---
+title: "EnergiFrance"
+format: html
+---
+
+# Bienvenue dans l'Analyse Énergétique Régionale
+
+Ce projet a pour objectif d'analyser et de visualiser l'évolution de la production d'énergie (nucléaire, thermique, renouvelable) au niveau des régions françaises, en utilisant des données brutes publiques. Le site web sert de support de narration et d'interface interactive pour explorer les tendances identifiées.

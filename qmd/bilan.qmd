@@ -1,0 +1,32 @@
+---
+title: "Bilan Énergétique"
+---
+
+## Analyse du Bilan Énergétique par Région
+
+Cette page présente une analyse du bilan énergétique par région en France. Les données proviennent du fichier `bilan_energetique.csv`.
+
+```{python}
+#| echo: false
+import sys
+from pathlib import Path
+sys.path.append(str(Path.cwd().parent))
+
+from src.charts.bilan_charts import consumption_vs_production_chart, coverage_rate_chart
+
+project_root = Path.cwd().parent
+consumption_vs_production_chart(project_root)
+coverage_rate_chart(project_root)
+```
+
+### Consommation vs. Production
+
+Le graphique ci-dessous compare la consommation totale et la production totale d'énergie (en MWh) pour chaque région.
+
+<iframe src="../charts/consumption_vs_production.html" width="100%" height="500px" style="border:none;"></iframe>
+
+### Taux de Couverture
+
+Le taux de couverture est le rapport entre la production et la consommation d'énergie. Une valeur supérieure à 100% indique que la région produit plus d'énergie qu'elle n'en consomme.
+
+<iframe src="../charts/coverage_rate.html" width="100%" height="500px" style="border:none;"></iframe>

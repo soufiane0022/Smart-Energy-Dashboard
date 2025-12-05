@@ -1,0 +1,181 @@
+---
+title: "Visualisation Interactive de la Production Énergétique"
+format: html
+---
+
+## Carte des Régions Françaises
+
+Cette page présente une carte interactive des régions françaises avec des données de production énergétique.
+
+<div id="energy-buttons">
+    <button class="energy-btn" data-energy="Total">Toutes</button>
+    <button class="energy-btn" data-energy="Nucléaire">Nucléaire</button>
+    <button class="energy-btn" data-energy="Thermique">Thermique</button>
+    <button class="energy-btn" data-energy="Hydraulique">Hydraulique</button>
+    <button class="energy-btn" data-energy="Eolien">Éolien</button>
+    <button class="energy-btn" data-energy="Solaire">Solaire</button>
+    <button class="energy-btn" data-energy="Bio-énergies">Bioénergies</button>
+</div>
+
+<div id="map" style="height: 600px; width: 100%; border: 1px solid #ccc; border-radius: 8px; margin-top: 10px;"></div>
+
+<style>
+.energy-btn {
+    margin: 2px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+.energy-btn.active {
+    background-color: #ddd;
+    font-weight: bold;
+}
+.legend {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+</style>
+
+```{python}
+#| label: extract-data
+#| output: asis
+#| echo: false
+import sys
+import json
+from pathlib import Path
+import os
+
+sys.path.append(str(Path.cwd().parent))
+from src.processor import extract_all_regions_data, save_all_regions_geojson
+
+all_regions_data_result = extract_all_regions_data()
+save_geojson_result = save_all_regions_geojson()
+
+print("<script>")
+if "error" in all_regions_data_result:
+    error_msg = all_regions_data_result["error"]
+    print(f"console.error('Erreur Python (data): {error_msg}');")
+    print(f"document.getElementById('map').innerHTML = '<p style=\"color:red;\">Erreur: {error_msg}</p>';")
+elif "error" in save_geojson_result:
+    error_msg = save_geojson_result["error"]
+    print(f"console.error('Erreur Python (geojson): {error_msg}');")
+    print(f"document.getElementById('map').innerHTML = '<p style=\"color:red;\">Erreur: {error_msg}</p>';")
+else:
+    print(f"const allRegionsData = {json.dumps(all_regions_data_result['data'])};")
+print("</script>")
+```
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script>
+    const map = L.map('map').setView([46.603354, 1.888334], 5);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    let geoLayer;
+    let legend;
+
+    function getColor(d, max) {
+        return d > max * 0.8 ? '#800026' :
+               d > max * 0.6 ? '#BD0026' :
+               d > max * 0.4 ? '#E31A1C' :
+               d > max * 0.2 ? '#FC4E2A' :
+               d > 0         ? '#FFEDA0' :
+                              '#FFFFFF';
+    }
+
+    function updateMap(selectedEnergyType) {
+        if (geoLayer) {
+            map.removeLayer(geoLayer);
+        }
+        if (legend) {
+            map.removeControl(legend);
+        }
+
+        fetch('regions.geojson')
+            .then(response => {
+                console.log("fetch response:", response);
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(geoJsonFeatureCollection => {
+                console.log("geoJsonFeatureCollection:", geoJsonFeatureCollection);
+
+                const productions = geoJsonFeatureCollection.features.map(f => f.properties[selectedEnergyType] || 0);
+                const maxProd = Math.max(...productions.filter(p => p !== null && !isNaN(p)));
+                console.log("maxProd:", maxProd);
+
+                geoLayer = L.geoJSON(geoJsonFeatureCollection, {
+                    style: function(feature) {
+                        const prod = feature.properties[selectedEnergyType] || 0;
+                        return {
+                            fillColor: getColor(prod, maxProd),
+                            weight: 2,
+                            opacity: 1,
+                            color: 'white',
+                            dashArray: '3',
+                            fillOpacity: 0.7
+                        };
+                    },
+                    onEachFeature: function(feature, layer) {
+                        const props = feature.properties;
+                        const prodValue = props[selectedEnergyType];
+                        const prodDisplay = (prodValue !== null && !isNaN(prodValue)) ? prodValue.toLocaleString() + " MWh" : "N/A";
+                        layer.bindPopup(
+                            `<div style='text-align:center;'>
+                                <h3>${props.regionName}</h3>
+                                <p><b>Production (${selectedEnergyType}) :</b> ${prodDisplay}</p>
+                            </div>`
+                        );
+                    }
+                }).addTo(map);
+
+                // Legend
+                legend = L.control({position: 'bottomright'});
+                legend.onAdd = function (map) {
+                    const div = L.DomUtil.create('div', 'info legend');
+                    const grades = [0, maxProd * 0.2, maxProd * 0.4, maxProd * 0.6, maxProd * 0.8];
+                    div.innerHTML += '<h4>Production (MWh)</h4>';
+                    for (let i = 0; i < grades.length; i++) {
+                        div.innerHTML +=
+                            '<i style="background:' + getColor(grades[i] + 1, maxProd) + '"></i> ' +
+                            Math.round(grades[i]).toLocaleString() + (grades[i + 1] ? '&ndash;' + Math.round(grades[i + 1]).toLocaleString() + '<br>' : '+');
+                    }
+                    return div;
+                };
+                legend.addTo(map);
+            })
+            .catch(error => console.error('Erreur lors du chargement du GeoJSON:', error));
+    }
+
+    const energyButtons = document.querySelectorAll('.energy-btn');
+    energyButtons.forEach(btn => {
+        btn.addEventListener('click', function() {
+            energyButtons.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            updateMap(this.dataset.energy);
+        });
+    });
+
+    // Initial map load
+    setTimeout(function() {
+        document.querySelector('.energy-btn[data-energy="Total"]').classList.add('active');
+        updateMap('Total');
+    }, 100);
+</script>

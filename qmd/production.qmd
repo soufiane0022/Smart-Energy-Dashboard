@@ -1,0 +1,39 @@
+---
+title: "Analyse de la Production"
+---
+
+## Analyse de la Production d'Énergie par Filière
+
+Cette page se concentre sur la production d'énergie, en distinguant les différentes filières. Les données proviennent des fichiers `prod_annuelle_filiere_clean.csv` and `prod_mensuelle_clean.csv`.
+
+```{python}
+#| echo: false
+import sys
+from pathlib import Path
+sys.path.append(str(Path.cwd().parent))
+
+from src.charts.production_charts import annual_production_by_filiere_chart, filiere_production_evolution_chart, monthly_production_chart
+
+project_root = Path.cwd().parent
+annual_production_by_filiere_chart(project_root)
+filiere_production_evolution_chart(project_root)
+monthly_production_chart(project_root)
+```
+
+### Production Annuelle par Filière
+
+Le graphique ci-dessous montre la répartition de la production d'énergie par filière pour une région et une année données.
+
+<iframe src="../charts/annual_production_by_filiere.html" width="100%" height="500px" style="border:none;"></iframe>
+
+### Évolution de la Production d'une Filière
+
+Ce graphique illustre l'évolution de la production d'une filière spécifique au fil du temps.
+
+<iframe src="../charts/filiere_production_evolution.html" width="100%" height="500px" style="border:none;"></iframe>
+
+### Production Mensuelle
+
+Ce graphique montre la production mensuelle pour une filière, une région et une année données.
+
+<iframe src="../charts/monthly_production.html" width="100%" height="500px" style="border:none;"></iframe>

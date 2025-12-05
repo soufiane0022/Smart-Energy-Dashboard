@@ -1,0 +1,12 @@
+---
+title: "Tests Unitaires et Évaluation des Performances"
+format: html
+---
+
+## 1. Tests Unitaires (Critère 2.3.2.8)
+
+... (Collez ici tout le code Python/Markdown que j'ai donné pour les tests unitaires) ...
+
+## 2. Évaluation Temps et Mémoire (Critère 2.3.2.6)
+
+... (Collez ici tout le code Python/Markdown pour le profilage) ...

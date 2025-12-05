@@ -1,0 +1,33 @@
+---
+title: "Analyse de la Consommation"
+---
+
+## Analyse de la Consommation d'Énergie par Département
+
+Cette page analyse la consommation d'énergie par département, en la décomposant par secteur. Les données sont issues du fichier `conso_clean_dept.csv`.
+
+```{python}
+#| echo: false
+import sys
+from pathlib import Path
+sys.path.append(str(Path.cwd().parent))
+
+from src.charts.consommation_charts import consumption_by_sector_chart, total_consumption_breakdown_chart
+
+project_root = Path.cwd().parent
+consumption_by_sector_chart(project_root)
+total_consumption_breakdown_chart(project_root)
+```
+
+### Consommation par Secteur
+
+Le graphique suivant montre la répartition de la consommation d'énergie par secteur (Agriculture, Industrie, Résidentiel, Tertiaire, Autre) pour un département donné (par exemple, l'Aude en 2014).
+
+<iframe src="../charts/consumption_by_sector.html" width="100%" height="500px" style="border:none;"></iframe>
+
+### Breakdown de la Consommation Totale
+
+Ce graphique illustre la part de chaque secteur dans la consommation totale pour chaque département.
+
+<iframe src="../charts/total_consumption_breakdown.html" width="100%" height="500px" style="border:none;"></iframe>
+
